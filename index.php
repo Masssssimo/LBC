@@ -102,7 +102,7 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-6 text-center">
                         <div class="img-service-box">
-                            <img src="img/resto/tryAlpha.jpeg" width="200" height="200" class="img-circle " alt="">
+                            <img src="img/resto/question-mark2.png" width="200" height="200" class="img-circle " alt="">
                             <span class="center-line"></span>
                             <h3>What is Alpha?</h3>
                             <p>
@@ -135,7 +135,7 @@
                     </div><!--img-service box-->
                     <div class="col-md-3 col-sm-6 text-center">
                         <div class="img-service-box">
-                            <img src="img/resto/talks.png" width="200" height="200" class="img-circle " alt="">
+                            <img src="img/resto/talks_black.png" width="200" height="200" class="img-circle " alt="">
                             <span class="center-line"></span>
                             <h3>Talks</h3>
                             <p>
@@ -169,7 +169,7 @@
                     </div><!--img-service box-->
                     <div class="col-md-3 col-sm-6 text-center">
                         <div class="img-service-box">
-                            <img src="img/resto/food.png" width="200" height="200" class="img-circle " alt="">
+                            <img src="img/resto/food2.png" width="200" height="200" class="img-circle " alt="">
                             <span class="center-line"></span>
                             <h3>Food</h3>
                             <p>
@@ -203,7 +203,7 @@
                     </div><!--img-service box-->
                     <div class="col-md-3 col-sm-6 text-center">
                         <div class="img-service-box">
-                            <img src="img/resto/discussion.png" width="200" height="200" class="img-circle " alt="">
+                            <img src="img/resto/discussion2.png" width="200" height="200" class="img-circle " alt="">
                             <span class="center-line"></span>
                             <h3>Discussions</h3>
                             <p>
@@ -389,8 +389,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text-center">
-                        <h2>Affordable quality foods</h2>
-                        <a class="btn btn-lg btn-yellow">Make a reservation</a>
+                        <h2>Come visit us!</h2>
+                        <a class="btn btn-lg btn-yellow" href="https://goo.gl/maps/ytJkiiLqekQ2" target="_blank">Directions</a>
                     </div>
                 </div>
             </div>
