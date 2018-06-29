@@ -1,3 +1,4 @@
+<?php include('M-A-P/runtime.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,7 +9,6 @@
         <title>LBC</title>
         <!-- Bootstrap -->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
         <!-- font awesome for icons -->
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
         <!-- flex slider css -->
@@ -48,6 +48,7 @@
                         <li><a href="#alpha">Alpha</a></li>
                         <li><a href="#newLBC">New To LBC</a></li>
                         <li><a href="#events">Events</a></li>
+                        <li><a href="#events">Members</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div><!--/.container-fluid -->
@@ -272,61 +273,115 @@
                                 <h3>Heres what to expect!</h3>
                             </div>
                         </div>
-                        
-                        <div class="row">
-                          <div class="col-md-4"></div>
-                          <div class="col-md-4">
-                            <div class="panel panel-default">
-                              <div class="panel-heading">Panel Heading</div>
-                              <div class="panel-body">Panel content</div>
+                        <div class="panel-group col-sm-4" id="accordion1">
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse1">
+                                <a>Is church only for good people?</a>
+                              </h4>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse">
+                              <div class="panel-body text-center"><p>No, the church is for everyone! Regardless of your background, culture, age and history, you are welcomed and accepted here.</p></div>
                             </div>
                           </div>
-                          <div class="col-md-4"></div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse2">
+                                <a>What happens at services?</a>
+                              </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse">
+                              <div class="panel-body text-center"><p>You will be welcomed at the door by one of our ushers. Sit anywhere you like in the gathering room. There will be singing, prayers, and a sharing by a pastor who talks about how the Bible can bring hope and change in our daily lives. Children and youth go to their own groups in the middle of service. Services usually last an hour and a half. Free coffee and tea are available in between services at the foyer.</p></div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse3">
+                                <a>Is anything expected of me?</a>
+                              </h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse">
+                              <div class="panel-body text-center"><p>Feel free to join in the singing of the songs (words are projected on the screen) but you can just enjoy listening to the songs. We also stand during this time, though you may sit if that is more comfortable with you. You do not have to bring a Bible as the passages will be shown on the screen. After the service, there are prayer opportunities if you would like to be prayed for.</p></div>
+                            </div>
+                          </div>
+
                         </div>
-                            <!-- <div class="container row">
-                            <div class="panel-group" id="accordion">
-                              <div class="panel panel-default col-sm-6 col-sm-offset-3">
-                                <div class="panel-heading">
-                                  <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Is church only for good people?</a>
-                                  </h4>
-                                </div>
-                                <div id="collapse1" class="panel-collapse collapse col-sm-6">
-                                  <div class="panel-body">
-                                    <p>No, the church is for everyone! Regardless of your background, culture, age and history, you are welcomed and accepted here.</p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="panel panel-default col-sm-6 col-sm-offset-3">
-                                <div class="panel-heading">
-                                  <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">What if I have questions during the service?</a>
-                                  </h4>
-                                </div>
-                                <div id="collapse2" class="panel-collapse collapse col-sm-6">
-                                  <div class="panel-body">
-                                    <p>Feel free to grab one of our pastors or ministry staff after the service and they will be happy to talk with you.</p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="panel panel-default col-sm-6 col-sm-offset-3">
-                                <div class="panel-heading">
-                                  <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Is anything expected of me?</a>
-                                  </h4>
-                                </div>
-                                <div id="collapse3" class="panel-collapse collapse col-sm-6">
-                                  <div class="panel-body">
-                                    <p>Feel free to join in the singing of the songs (words are projected on the screen) but you can just enjoy listening to the songs. We also stand during this time, though you may sit if that is more comfortable with you. You do not have
-                                    to bring a Bible as the passages will be shown on the screen. After the service, there is an opportunity to step forward for prayer if you wish.</p>
-                                  </div>
-                                </div>
+
+                        <div class="panel-group col-sm-4" id="accordion2">
+
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse4">
+                                <a>What should I wear?</a>
+                              </h4>
+                            </div>
+                            <div id="collapse4" class="panel-collapse collapse">
+                              <div class="panel-body text-center"><p>Dress in whatever makes you feel comfortable! Some of us dress casually, and others prefer to wear their “Sunday best.”</p></div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse5">
+                                <a>Do I have to give money?</a>
+                              </h4>
+                            </div>
+                            <div id="collapse5" class="panel-collapse collapse">
+                              <div class="panel-body text-center"><p>Not at all! The services, children and youth programmes and refreshments are free. Our church building, staff and community work are funded by contributions, so we have a collection at every service. It is normal to let the bag pass without putting anything inside. There is no expectation to give a contribution.</p></div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse6">
+                                <a>Is church serious or social?</a>
+                              </h4>
+                            </div>
+                            <div id="collapse6" class="panel-collapse collapse">
+                              <div class="panel-body text-center"><p>Church life is a wonderful mix of both! We are serious about Jesus and how we live out His teachings in our lives. At the same time, we also enjoy fun, social activities together and have many planned in our church calendar. <br>Check them out here!.
+
+
+                                          <div class="col-sm-12 text-center scroll-to">
+                                            <a class="btn btn-md btn-yellow" href="#events">Events</a>
+                                          </div>
+
                               </div>
                             </div>
-                          </div> -->
-                        <!--section title-->
+                          </div>
 
+                        </div>
 
+                        <div class="panel-group col-sm-4" id="accordion3">
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse7">
+                                <a>Will someone tell me what to believe?</a>
+                              </h4>
+                            </div>
+                            <div id="collapse7" class="panel-collapse collapse">
+                              <div class="panel-body text-center"><p>During the service, someone does give a talk at the front and it is a sharing of how God was, is and continues to be relevant in today’s world. The talk includes stories, pictures, testimonies and even jokes! And none of it is meant to intimidate or condemn anyone into believing anything. The message of Jesus is not an order or command of fear, it is instead a gentle invitation to love and hope.</p></div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse8">
+                                <a>What if I have questions during the service?</a>
+                              </h4>
+                            </div>
+                            <div id="collapse8" class="panel-collapse collapse">
+                              <div class="panel-body text-center"><p>Feel free to grab one of our pastors or ministry staff after the service and they will be happy to talk with you.</p></div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse9">
+                                <a>Where can I park?</a>
+                              </h4>
+                            </div>
+                            <div id="collapse9" class="panel-collapse collapse">
+                              <div class="panel-body text-center"><p>We have a car park directly outside the church. When this is filled, please park responsibly along the surrounding streets. The parking spaces right in front of the church are reserved for those who have difficulty with mobility. </p></div>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
                     </div>
                 </section><!--section dishes-->
 
@@ -355,13 +410,7 @@
                 <div class="row">
                     <div class="col-sm-4 margin-b-30">
                         <div class="event-thumb">
-                            <img src="img/resto/img-4.jpg" alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-inner">
-                                    <h4>Event title</h4>
-                                    <p>Lorem ipsum dolor</p>
-                                </div>
-                            </div>
+                            <?php perch_content('Event 1'); ?>
                         </div><!--event thumbnail-->
                         <div class="event-desc clearfix">
                             <h4>Indian Meat Opening</h4>
@@ -375,13 +424,7 @@
                     </div><!--event entry column-->
                     <div class="col-sm-4 margin-b-30">
                         <div class="event-thumb">
-                            <img src="img/resto/img-6.jpg" alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-inner">
-                                    <h4>Coffee with enrique</h4>
-                                    <p>Lorem ipsum dolor</p>
-                                </div>
-                            </div>
+                            <?php perch_content('Event 2'); ?>
                         </div><!--event thumbnail-->
                         <div class="event-desc clearfix">
                             <h4>Coffee with Enrique</h4>
@@ -395,13 +438,7 @@
                     </div><!--event entry column-->
                     <div class="col-sm-4 margin-b-30">
                         <div class="event-thumb">
-                            <img src="img/resto/img-5.jpg" alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-inner">
-                                    <h4>New Restaurant Opening</h4>
-                                    <p>Lorem ipsum dolor</p>
-                                </div>
-                            </div>
+                            <?php perch_content('Event 3'); ?>
                         </div><!--event thumbnail-->
                         <div class="event-desc clearfix">
                             <h4>New Restaurant Opening</h4>
@@ -527,10 +564,8 @@
         <script src="js/wow.min.js" type="text/javascript"></script>
         <!--popup js-->
         <script src="lightbox2/dist/js/lightbox.min.js" type="text/javascript"></script>
-        <!--cantact form script-->
-        <script src="js/contact_me.js" type="text/javascript"></script>
-        <script src="js/jqBootstrapValidation.js" type="text/javascript"></script>
         <!--restaurant custom js-->
         <script src="js/custom.js" type="text/javascript"></script>
+
     </body>
 </html>

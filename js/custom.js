@@ -7,8 +7,8 @@ $.backstretch([
     "img/resto/img-3.jpg"
 ], {
     fade: 750,
-    duration: 4000
-});
+    duration: 1000
+  });
 
 
 //menu shrink
@@ -63,7 +63,8 @@ $(window).load(function () {
         animation: "slide",
         direction: "vertical",
         directionNav: false,
-        controlNav: false
+        controlNav: false,
+        slideshowSpeed: 3000
     });
 });
 
