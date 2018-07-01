@@ -270,7 +270,7 @@
                             <div class="col-sm-6 col-sm-offset-3 center-title text-center">
                                 <h3>New to LBC?</h3>
                                 <span class="center-line"></span>
-                                <h3>Heres what to expect!</h3>
+                                <h3>Here's what to expect!</h3>
                             </div>
                         </div>
                         <div class="panel-group col-sm-4" id="accordion1">
@@ -565,7 +565,7 @@
         <!--popup js-->
         <script src="lightbox2/dist/js/lightbox.min.js" type="text/javascript"></script>
         <!--restaurant custom js-->
-        <script src="js/custom.js" type="text/javascript"></script>
+        <script src="js/restaurant-custom.js" type="text/javascript"></script>
 
     </body>
 </html>
