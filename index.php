@@ -41,7 +41,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-			
+
 				<a class="navbar-brand" href="#">LBC</a>
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
@@ -298,7 +298,7 @@
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse1">
                                 <a>Is church only for good people?</a>
                               </h4>
-					
+
 					</div>
 					<div id="collapse1" class="panel-collapse collapse">
 						<div class="panel-body text-center">
@@ -311,7 +311,7 @@
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse2">
                                 <a>What happens at services?</a>
                               </h4>
-					
+
 					</div>
 					<div id="collapse2" class="panel-collapse collapse">
 						<div class="panel-body text-center">
@@ -324,7 +324,7 @@
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse3">
                                 <a>Is anything expected of me?</a>
                               </h4>
-					
+
 					</div>
 					<div id="collapse3" class="panel-collapse collapse">
 						<div class="panel-body text-center">
@@ -342,7 +342,7 @@
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse4">
                                 <a>What should I wear?</a>
                               </h4>
-					
+
 					</div>
 					<div id="collapse4" class="panel-collapse collapse">
 						<div class="panel-body text-center">
@@ -355,7 +355,7 @@
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse5">
                                 <a>Do I have to give money?</a>
                               </h4>
-					
+
 					</div>
 					<div id="collapse5" class="panel-collapse collapse">
 						<div class="panel-body text-center">
@@ -368,14 +368,15 @@
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse6">
                                 <a>Is church serious or social?</a>
                               </h4>
-					
+
 					</div>
 					<div id="collapse6" class="panel-collapse collapse">
 						<div class="panel-body text-center">
 							<p>Church life is a wonderful mix of both! We are serious about Jesus and how we live out His teachings in our lives. At the same time, we also enjoy fun, social activities together and have many planned in our church calendar. <br>Check them out here!.
 
-
-								
+								<div class="col-sm-12 text-center scroll-to">
+									<a class="btn btn-lg btn-yellow" href="#events" target="_blank">Events</a>
+								</div>
 
 						</div>
 					</div>
@@ -389,7 +390,7 @@
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse7">
                                 <a>Will someone tell me what to believe?</a>
                               </h4>
-					
+
 					</div>
 					<div id="collapse7" class="panel-collapse collapse">
 						<div class="panel-body text-center">
@@ -402,7 +403,7 @@
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse8">
                                 <a>What if I have questions during the service?</a>
                               </h4>
-					
+
 					</div>
 					<div id="collapse8" class="panel-collapse collapse">
 						<div class="panel-body text-center">
@@ -415,7 +416,7 @@
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse9">
                                 <a>Where can I park?</a>
                               </h4>
-					
+
 					</div>
 					<div id="collapse9" class="panel-collapse collapse">
 						<div class="panel-body text-center">
