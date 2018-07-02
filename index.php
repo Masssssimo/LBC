@@ -454,7 +454,7 @@
 			</div>
 			<!--section title-->
 			<div class="row">
-				<div class="col-sm-3 margin-b-30">
+				<div class="col-sm-4 margin-b-30">
 					<div class="event-thumb">
 						<?php perch_content('Event 1'); ?>
 					</div>
@@ -470,7 +470,7 @@
 					</div>
 				</div>
 				<!--event entry column-->
-				<div class="col-sm-3 margin-b-30">
+				<div class="col-sm-4 margin-b-30">
 					<div class="event-thumb">
 						<?php perch_content('Event 2'); ?>
 					</div>
@@ -486,7 +486,7 @@
 					</div>
 				</div>
 				<!--event entry column-->
-				<div class="col-sm-3 margin-b-30">
+				<div class="col-sm-4 margin-b-30">
 					<div class="event-thumb">
 						<?php perch_content('Event 3'); ?>
 					</div>
