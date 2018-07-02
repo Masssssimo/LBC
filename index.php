@@ -434,7 +434,7 @@
 			<div class="row">
 				<div class="col-sm-12 text-center">
 					<h2>Visit us!</h2>
-					<a class="btn btn-lg btn-yellow" href="https://goo.gl/maps/6sTLmCCVxnw">Directions</a>
+					<a class="btn btn-lg btn-yellow" href="https://goo.gl/maps/6sTLmCCVxnw" target="_blank">Directions</a>
 				</div>
 			</div>
 		</div>
