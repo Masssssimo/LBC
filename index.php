@@ -48,7 +48,7 @@
                         <li><a href="#alpha">Alpha</a></li>
                         <li><a href="#newLBC">New To LBC</a></li>
                         <li><a href="#events">Events</a></li>
-                        <li><a href="#events">Members</a></li>
+                        <li><a href="#chefs">Members</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div><!--/.container-fluid -->
@@ -102,19 +102,9 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-6 text-center">
                         <div class="img-service-box">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
                             <img src="img/resto/alpha-logo.png" width="200" height="200" class="img-circle " alt="">
-=======
-                            <img src="img/resto/tryAlpha.jpeg" width="200" height="200" class="img-circle " alt="">
->>>>>>> parent of cf404dd... Small Changes
-=======
-                            <img src="img/resto/tryAlpha.jpeg" width="200" height="200" class="img-circle " alt="">
->>>>>>> parent of cf404dd... Small Changes
-=======
-                            <img src="img/resto/tryAlpha.jpeg" width="200" height="200" class="img-circle " alt="">
->>>>>>> parent of cf404dd... Small Changes
+
                             <span class="center-line"></span>
                             <h3>What is Alpha?</h3>
                             <p>
@@ -147,7 +137,7 @@
                     </div><!--img-service box-->
                     <div class="col-md-3 col-sm-6 text-center">
                         <div class="img-service-box">
-                            <img src="img/resto/talks.png" width="200" height="200" class="img-circle " alt="">
+                            <img src="img/resto/talks1.png" width="200" height="200" class="img-circle " alt="">
                             <span class="center-line"></span>
                             <h3>Talks</h3>
                             <p>
@@ -420,7 +410,7 @@
                     </div>
                 </div><!--section title-->
                 <div class="row">
-                    <div class="col-sm-4 margin-b-30">
+                    <div class="col-sm-3 margin-b-30">
                         <div class="event-thumb">
                             <?php perch_content('Event 1'); ?>
                         </div><!--event thumbnail-->
@@ -434,7 +424,7 @@
                             <a href="#">View Details <i class="fa fa-angle-right"></i></a>
                         </div>
                     </div><!--event entry column-->
-                    <div class="col-sm-4 margin-b-30">
+                    <div class="col-sm-3 margin-b-30">
                         <div class="event-thumb">
                             <?php perch_content('Event 2'); ?>
                         </div><!--event thumbnail-->
@@ -448,7 +438,7 @@
                             <a href="#">View Details <i class="fa fa-angle-right"></i></a>
                         </div>
                     </div><!--event entry column-->
-                    <div class="col-sm-4 margin-b-30">
+                    <div class="col-sm-3 margin-b-30">
                         <div class="event-thumb">
                             <?php perch_content('Event 3'); ?>
                         </div><!--event thumbnail-->
@@ -466,7 +456,7 @@
             </div>
         </section><!--events-->
 
-        <section class="our-chefs">
+        <section id="chefs" class="our-chefs">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 center-title text-center">
@@ -475,68 +465,104 @@
                     </div>
                 </div><!--section title-->
                 <div class="row">
-                    <div class="col-sm-4 margin-b-30">
-                        <div class="chef-box">
-                            <div class="chef-thumb">
-                                <img src="img/team-1.jpg" class="img-responsive" alt="">
-                                <div class="chef-overlay">
-                                    <div class="chef-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div><!--chef thumb-->
-                            <div class="chef-desc">
-                                <h4>Juliyana</h4>
-                                <em>Master Chef</em>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim.
-                                </p>
-                            </div>
-                        </div><!--chef desc-->
-                    </div><!--chef column-->
-                    <div class="col-sm-4 margin-b-30">
-                        <div class="chef-box">
-                            <div class="chef-thumb">
-                                <img src="img/team-2.jpg" class="img-responsive" alt="">
-                                <div class="chef-overlay">
-                                    <div class="chef-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div><!--chef thumb-->
-                            <div class="chef-desc">
-                                <h4>Juliyana</h4>
-                                <em>Master Chef</em>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim.
-                                </p>
-                            </div>
-                        </div><!--chef desc-->
-                    </div><!--chef column-->
-                    <div class="col-sm-4 margin-b-30">
-                        <div class="chef-box">
-                            <div class="chef-thumb">
-                                <img src="img/team-3.jpg" class="img-responsive" alt="">
-                                <div class="chef-overlay">
-                                    <div class="chef-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div><!--chef thumb-->
-                            <div class="chef-desc">
-                                <h4>Juliyana</h4>
-                                <em>Master Chef</em>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim.
-                                </p>
-                            </div>
-                        </div><!--chef desc-->
+            <div class="col-sm-4 col-sm-offset-1 margin-b-30">
+              <div class="chef-box">
+                <div class="chef-thumb">
+                  <img src="img/resto/craig_sayle.jpg" class="img-responsive" alt="">
+                  <div class="chef-overlay">
+                    <div class="chef-social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <!--chef thumb-->
+                <div class="chef-desc">
+                  <h4>Rev. Craig Sayle</h4>
+                  <em>Senior Pastor</em>
+                  <p>
+                    Email: craig@loughtonbaptistchurch.org
+                  </p>
+                </div>
+              </div>
+              <!--chef desc-->
+            </div>
+            <!--chef column-->
+            <div class="col-sm-4 col-sm-offset-2 margin-b-30">
+              <div class="chef-box">
+                <div class="chef-thumb">
+                  <img src="img/resto/Nathan Marlam.jpg" class="img-responsive" alt="">
+                  <div class="chef-overlay">
+                    <div class="chef-social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <!--chef thumb-->
+                <div class="chef-desc">
+                  <h4>Rev. Nathan Marlam</h4>
+                  <em>Associate Pastor</em>
+                  <p>
+
+                    Email: nathan@loughtonbaptistchurch.org
+
+                  </p>
+                </div>
+              </div>
+              <!--chef desc-->
+            </div>
+            <!--chef column-->
+          </div>
+
+          <div class="row">
+            <div class="col-sm-4 col-sm-offset-1 margin-b-30">
+              <div class="chef-box">
+                <div class="chef-thumb">
+                  <img src="img/resto/Tony McGinley.jpg" class="img-responsive" alt="">
+                  <div class="chef-overlay">
+                    <div class="chef-social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <!--chef thumb-->
+                <div class="chef-desc">
+                  <h4>Tony McGinley</h4>
+                  <em>Youth Worker</em>
+                  <p>
+                    Email: youthworkertony@gmail.com
+                  </p>
+                </div>
+              </div>
+              <!--chef desc-->
+            </div>
+            <!--chef column-->
+            <div class="col-sm-4 col-sm-offset-2 margin-b-30">
+              <div class="chef-box">
+                <div class="chef-thumb">
+                  <img src="img/resto/Susan Garvin.jpg" class="img-responsive" alt="">
+                  <div class="chef-overlay">
+                    <div class="chef-social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <!--chef thumb-->
+                <div class="chef-desc">
+                  <h4>Susan</h4>
+                  <em>Secretary</em>
+                  <p>
+                    Email: office@loughtonbaptistchurch.org
+                  </p>
+                </div>
+              </div>
                     </div><!--chef column-->
                 </div>
             </div>

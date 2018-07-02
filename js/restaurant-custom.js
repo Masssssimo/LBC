@@ -8,7 +8,7 @@
 
 //backstretch
 $.backstretch([
-    "img/resto/3.jpeg"
+    "img/resto/cross2.jpg"
 ], {
     fade: 750,
     duration: 1000
