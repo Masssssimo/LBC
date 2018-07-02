@@ -345,7 +345,7 @@ Restaurant menu style
         color: #f2b84b;
         text-transform: capitalize; }
 
-    
+
 
 .dishes-slider {
   position: relative; }
@@ -628,6 +628,7 @@ Restaurant menu style
 .validation {
   background: #fdcfcf; }
 
+
 /**footer****/
 .footer {
   padding: 50px 0;
@@ -759,6 +760,10 @@ By ADAMSCHWARTZ
   content: attr(data-progress-text);
   display: block; }
 
+  .form-contact{
+    color: black;
+  }
+
 @-webkit-keyframes pace-theme-center-circle-spin {
   from {
     -webkit-transform: rotateY(0deg); }
@@ -857,5 +862,3 @@ By ADAMSCHWARTZ
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 30px; }
-
-/*# sourceMappingURL=restaurant-one-page-light.css.map */

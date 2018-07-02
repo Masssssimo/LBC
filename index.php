@@ -54,7 +54,7 @@
 					</li>
 					<li><a href="#events">Events</a>
 					</li>
-					<li><a href="#chefs">Members</a>
+					<li><a href="#team">Meet Us</a>
 					</li>
 				</ul>
 			</div>
@@ -69,7 +69,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-8 col-sm-offset-2 text-center">
-						
+
 						<h3>Welcome to the</h3>
 						<h3>Loughton Baptist Church</h3>
 <!--
@@ -512,7 +512,7 @@
 	</section>
 	<!--events-->
 
-	<section id="chefs" class="our-chefs">
+	<section id="team" class="our-chefs">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3 center-title text-center">
@@ -626,6 +626,121 @@
 		</div>
 	</section>
 	<!--Chefs section-->
+
+
+	<section id="about" class="about-section " >
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3 center-title text-center">
+					<h3>About Us</h3>
+					<span class="center-line"></span>
+				</div>
+			</div>
+			<!--section title-->
+			<div class="row">
+
+				<div class="col-md-6 col-sm-6">
+					<div>
+						<p class="contactDetails">
+							Loughton Baptist Church Bradwell Road<br> Loughton
+							<br> Milton Keynes<br> MK5 8AJ<br><br> Tel: 01908 232902<br><br> Email: office@loughtonbaptistchurch.org
+						</p>
+					</div>
+				</div>
+
+
+				<div class="col-md-6 col-sm-6 text-center">
+
+					<div id="map" style="width:100%; height:400px; background-color:grey;">
+
+					</div>
+
+				</div>
+				<!-- Maps section -->
+			</div>
+		</div>
+	</section>
+
+	<section class="cta">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h2>Loughton Baptist Church</h2>
+					<a href="#about" class="btn btn-lg btn-yellow">Come and visit us</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="contactus" class="about-section">
+		<div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-8 col-lg-offset-2">
+  		<form id="contact-form" method="post" action="contact.php" role="form">
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3 center-title text-center">
+						<h3 >Contact us</h3>
+						<span class="center-line"></span>
+					</div>
+				</div>
+        <div class="controls">
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_name" class="form-contact">Firstname *</label>
+                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_lastname" class="form-contact">Lastname *</label>
+                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_email" class="form-contact">Email *</label>
+                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_phone" class="form-contact">Phone</label>
+                <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="form_message" class="form-contact">Message *</label>
+                <textarea id="form_message" name="message" class="form-control" placeholder="Message for us *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <input type="submit" class="btn btn-success btn-send" value="Send message">
+            </div>
+          </div>
+        </div>
+
+        </form>
+
+      </div>
+		</section>
+
+
 
 
 	<footer class="footer  text-center">
