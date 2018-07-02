@@ -760,11 +760,23 @@ By ADAMSCHWARTZ
   content: attr(data-progress-text);
   display: block; }
 
+/*CUSTOM CSS CHANGES*/
+.modal-title{
+  font-family: "Raleway", sans-serif;
+}
+.modal-body{
+  font-family: "Raleway", sans-serif;
+}
 .FAQ-title:hover{
   color: white;
 }
-
-  .form-contact{
+.FAQ-body{
+  border: 2px solid #f2b84b;
+}
+.contact-us{
+  font-size: 20px;
+}
+.form-contact{
     color: black;
   }
 

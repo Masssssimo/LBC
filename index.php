@@ -56,6 +56,9 @@
 					</li>
 					<li><a href="#team">Meet Us</a>
 					</li>
+					</li>
+					<li><a href="#contact-us">Contact Us</a>
+					</li>
 				</ul>
 			</div>
 			<!--/.nav-collapse -->
@@ -118,11 +121,10 @@
 					<div class="img-service-box">
 
 						<img src="img/resto/alpha-logo.png" width="200" height="200" class="img-circle " alt="">
-
 						<span class="center-line"></span>
 						<h3>What is Alpha?</h3>
 						<p>
-							<button type="button" class="btn btn-yellow" data-toggle="modal" data-target="#whatIsAlpha">View Details <i class="fa fa-angle-right"></i></button>
+							<button type="button" class="btn btn-yellow btn-md" data-toggle="modal" data-target="#whatIsAlpha">View Details <i class="fa fa-angle-right"></i></button>
 						</p>
 					</div>
 					<!-- Modal -->
@@ -133,7 +135,7 @@
 							<div class="modal-content">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<h4 class="modal-title">What is Alpha?</h4>
+									<h3 class="modal-title">What is Alpha?</h3>
 								</div>
 								<div class="modal-body">
 									<p>
@@ -156,7 +158,7 @@
 						<span class="center-line"></span>
 						<h3>Talks</h3>
 						<p>
-							<button type="button" class="btn btn-yellow" data-toggle="modal" data-target="#talks">View Details <i class="fa fa-angle-right"></i></button>
+							<button type="button" class="btn btn-yellow btn-md" data-toggle="modal" data-target="#talks">View Details <i class="fa fa-angle-right"></i></button>
 						</p>
 					</div>
 
@@ -168,7 +170,7 @@
 							<div class="modal-content">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<h4 class="modal-title">Talks</h4>
+									<h3 class="modal-title">Talks</h3>
 								</div>
 								<div class="modal-body">
 									<p>
@@ -191,7 +193,7 @@
 						<span class="center-line"></span>
 						<h3>Food</h3>
 						<p>
-							<button type="button" class="btn btn-yellow" data-toggle="modal" data-target="#food">View Details <i class="fa fa-angle-right"></i></button>
+							<button type="button" class="btn btn-yellow btn-md" data-toggle="modal" data-target="#food">View Details <i class="fa fa-angle-right"></i></button>
 						</p>
 					</div>
 
@@ -203,7 +205,7 @@
 							<div class="modal-content">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<h4 class="modal-title">Food</h4>
+									<h3 class="modal-title">Food</h3>
 								</div>
 								<div class="modal-body">
 									<p>
@@ -226,7 +228,7 @@
 						<span class="center-line"></span>
 						<h3>Discussions</h3>
 						<p>
-							<button type="button" class="btn btn-yellow" data-toggle="modal" data-target="#Dis">View Details <i class="fa fa-angle-right"></i></button>
+							<button type="button" class="btn btn-yellow btn-md" data-toggle="modal" data-target="#Dis">View Details <i class="fa fa-angle-right"></i></button>
 						</p>
 					</div>
 					<!-- Modal -->
@@ -237,7 +239,7 @@
 							<div class="modal-content">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<h4 class="modal-title">Discussions</h4>
+									<h3 class="modal-title">Discussions</h3>
 								</div>
 								<div class="modal-body">
 									<p>
@@ -302,11 +304,10 @@
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse1">
                                 <a class="FAQ-title">Is church only for good people?</a>
                               </h4>
-
-					</div>
-					<div id="collapse1" class="panel-collapse collapse FAQ-Body">
+			</div>
+					<div id="collapse1" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
-							<p FAQ-Body>No, the church is for everyone! Regardless of your background, culture, age and history, you are welcomed and accepted here.</p>
+							<p>No, the church is for everyone! Regardless of your background, culture, age and history, you are welcomed and accepted here.</p>
 						</div>
 					</div>
 				</div>
@@ -317,7 +318,7 @@
                               </h4>
 
 					</div>
-					<div id="collapse2" class="panel-collapse collapse">
+					<div id="collapse2" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
 							<p>You will be welcomed at the door by one of our ushers. Sit anywhere you like in the gathering room. There will be singing, prayers, and a sharing by a pastor who talks about how the Bible can bring hope and change in our daily lives. Children and youth go to their own groups in the middle of service. Services usually last an hour and a half. Free coffee and tea are available in between services at the foyer.</p>
 						</div>
@@ -330,7 +331,7 @@
                               </h4>
 
 					</div>
-					<div id="collapse3" class="panel-collapse collapse">
+					<div id="collapse3" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
 							<p>Feel free to join in the singing of the songs (words are projected on the screen) but you can just enjoy listening to the songs. We also stand during this time, though you may sit if that is more comfortable with you. You do not have to bring a Bible as the passages will be shown on the screen. After the service, there are prayer opportunities if you would like to be prayed for.</p>
 						</div>
@@ -348,7 +349,7 @@
                               </h4>
 
 					</div>
-					<div id="collapse4" class="panel-collapse collapse">
+					<div id="collapse4" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
 							<p>Dress in whatever makes you feel comfortable! Some of us dress casually, and others prefer to wear their “Sunday best.”</p>
 						</div>
@@ -361,7 +362,7 @@
                               </h4>
 
 					</div>
-					<div id="collapse5" class="panel-collapse collapse">
+					<div id="collapse5" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
 							<p>Not at all! The services, children and youth programmes and refreshments are free. Our church building, staff and community work are funded by contributions, so we have a collection at every service. It is normal to let the bag pass without putting anything inside. There is no expectation to give a contribution.</p>
 						</div>
@@ -374,12 +375,12 @@
                               </h4>
 
 					</div>
-					<div id="collapse6" class="panel-collapse collapse">
+					<div id="collapse6" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
 							<p>Church life is a wonderful mix of both! We are serious about Jesus and how we live out His teachings in our lives. At the same time, we also enjoy fun, social activities together and have many planned in our church calendar. <br>Check them out here!.
 
 								<div class="col-sm-12 text-center scroll-to">
-									<a class="btn btn-lg btn-yellow" href="#events" target="_blank">Events</a>
+									<a class="btn btn-md btn-yellow" href="#events" target="_blank">Events</a>
 								</div>
 
 						</div>
@@ -396,7 +397,7 @@
                               </h4>
 
 					</div>
-					<div id="collapse7" class="panel-collapse collapse">
+					<div id="collapse7" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
 							<p>During the service, someone does give a talk at the front and it is a sharing of how God was, is and continues to be relevant in today’s world. The talk includes stories, pictures, testimonies and even jokes! And none of it is meant to intimidate or condemn anyone into believing anything. The message of Jesus is not an order or command of fear, it is instead a gentle invitation to love and hope.</p>
 						</div>
@@ -409,7 +410,7 @@
                               </h4>
 
 					</div>
-					<div id="collapse8" class="panel-collapse collapse">
+					<div id="collapse8" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
 							<p>Feel free to grab one of our pastors or ministry staff after the service and they will be happy to talk with you.</p>
 						</div>
@@ -422,7 +423,7 @@
                               </h4>
 
 					</div>
-					<div id="collapse9" class="panel-collapse collapse">
+					<div id="collapse9" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
 							<p>We have a car park directly outside the church. When this is filled, please park responsibly along the surrounding streets. The parking spaces right in front of the church are reserved for those who have difficulty with mobility. </p>
 						</div>
@@ -641,7 +642,7 @@
 
 				<div class="col-md-6 col-sm-6">
 					<div>
-						<p class="contactDetails">
+						<p class="contact-us">
 							Loughton Baptist Church Bradwell Road<br> Loughton
 							<br> Milton Keynes<br> MK5 8AJ<br><br> Tel: 01908 232902<br><br> Email: office@loughtonbaptistchurch.org
 						</p>
@@ -674,7 +675,7 @@
 
 
 
-	<section id="contactus" class="about-section">
+	<section id="contact-us" class="about-section">
 		<div class="container">
 
     <div class="row">
@@ -686,10 +687,12 @@
 						<h3 >Contact us</h3>
 						<span class="center-line"></span>
 					</div>
+					<div class="col-md-6 col-sm-offset-3 text-center">
+						<p>To send us a message, please fill in all the fields marked with an astrix.<p4>
+					</div>
 				</div>
         <div class="controls">
-
-          <div class="row">
+  				<div class="row">
             <div class="col-md-6">
               <div class="form-group">
                 <label for="form_name" class="form-contact">Firstname *</label>
