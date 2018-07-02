@@ -102,7 +102,7 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-6 text-center">
                         <div class="img-service-box">
-                            <img src="img/resto/question-mark2.png" width="200" height="200" class="img-circle " alt="">
+                            <img src="img/resto/alpha-logo.png" width="200" height="200" class="img-circle " alt="">
                             <span class="center-line"></span>
                             <h3>What is Alpha?</h3>
                             <p>
