@@ -104,7 +104,11 @@
                         <div class="img-service-box">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <img src="img/resto/alpha-logo.png" width="200" height="200" class="img-circle " alt="">
+=======
+                            <img src="img/resto/tryAlpha.jpeg" width="200" height="200" class="img-circle " alt="">
+>>>>>>> parent of cf404dd... Small Changes
 =======
                             <img src="img/resto/tryAlpha.jpeg" width="200" height="200" class="img-circle " alt="">
 >>>>>>> parent of cf404dd... Small Changes
