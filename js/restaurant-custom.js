@@ -1,14 +1,19 @@
+/*Theme    : assan
+ * Author  : Design_mylife
+ * Version : V1.8
+ *
+ */
+
 
 
 //backstretch
 $.backstretch([
-
-    "img/resto/2.jpg"
-
+    "img/resto/3.jpeg"
 ], {
     fade: 750,
-    duration: 4000
+    duration: 1000
 });
+
 
 //menu shrink
 $(document).on("scroll", function () {
@@ -79,4 +84,66 @@ $(document).ready(function () {
             nextText: "<i class='fa fa-angle-right'></i>"
         });
     });
+});
+
+
+//events slider
+$(document).ready(function () {
+
+    $("#dishes-slider").owlCarousel({
+    loop:true,
+    margin:0,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+
+});
+
+
+  $('#send-message-reservation').on("click",function(e){
+
+            // Stop form submission & check the validation
+            e.preventDefault();
+
+            // Variable declaration
+            var error = false;
+
+            var email = $('#email-reservation').val();
+
+            var date = $('#datepicker').val();
+
+
+            if(email.length == 0 || email.indexOf('@') < 1 || (email.lastIndexOf('.') - email.indexOf('@') < 2) || (email.length - email.lastIndexOf('.') < 2) )
+            {
+                var error = true;
+
+                $('#email-reservation').addClass("validation");
+
+            }else{
+                $('#email-reservation').removeClass("validation");
+            }
+
+            if(date.length == 0){
+                var error = true;
+                $('#datepicker').addClass("validation");
+            }else{
+                $('#datepicker').removeClass("validation");
+            }
+
+
+        });
+
+         // DATEPICKER
+  $(function() {
+    $( "#datepicker" ).datepicker();
 });
