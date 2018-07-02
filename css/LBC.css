@@ -760,6 +760,10 @@ By ADAMSCHWARTZ
   content: attr(data-progress-text);
   display: block; }
 
+.FAQ-title:hover{
+  color: white;
+}
+
   .form-contact{
     color: black;
   }

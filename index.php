@@ -122,7 +122,7 @@
 						<span class="center-line"></span>
 						<h3>What is Alpha?</h3>
 						<p>
-							<button type="button" class="btn btn-light" data-toggle="modal" data-target="#whatIsAlpha">View Details <i class="fa fa-angle-right"></i></button>
+							<button type="button" class="btn btn-yellow" data-toggle="modal" data-target="#whatIsAlpha">View Details <i class="fa fa-angle-right"></i></button>
 						</p>
 					</div>
 					<!-- Modal -->
@@ -156,7 +156,7 @@
 						<span class="center-line"></span>
 						<h3>Talks</h3>
 						<p>
-							<button type="button" class="btn btn-light" data-toggle="modal" data-target="#talks">View Details <i class="fa fa-angle-right"></i></button>
+							<button type="button" class="btn btn-yellow" data-toggle="modal" data-target="#talks">View Details <i class="fa fa-angle-right"></i></button>
 						</p>
 					</div>
 
@@ -191,7 +191,7 @@
 						<span class="center-line"></span>
 						<h3>Food</h3>
 						<p>
-							<button type="button" class="btn btn-light" data-toggle="modal" data-target="#food">View Details <i class="fa fa-angle-right"></i></button>
+							<button type="button" class="btn btn-yellow" data-toggle="modal" data-target="#food">View Details <i class="fa fa-angle-right"></i></button>
 						</p>
 					</div>
 
@@ -226,7 +226,7 @@
 						<span class="center-line"></span>
 						<h3>Discussions</h3>
 						<p>
-							<button type="button" class="btn btn-light" data-toggle="modal" data-target="#Dis">View Details <i class="fa fa-angle-right"></i></button>
+							<button type="button" class="btn btn-yellow" data-toggle="modal" data-target="#Dis">View Details <i class="fa fa-angle-right"></i></button>
 						</p>
 					</div>
 					<!-- Modal -->
@@ -297,23 +297,23 @@
 				</div>
 			</div>
 			<div class="panel-group col-sm-4" id="accordion1">
-				<div class="panel panel-default">
-					<div class="panel-heading">
+				<div class="panel">
+					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse1">
-                                <a>Is church only for good people?</a>
+                                <a class="FAQ-title">Is church only for good people?</a>
                               </h4>
 
 					</div>
-					<div id="collapse1" class="panel-collapse collapse">
+					<div id="collapse1" class="panel-collapse collapse FAQ-Body">
 						<div class="panel-body text-center">
-							<p>No, the church is for everyone! Regardless of your background, culture, age and history, you are welcomed and accepted here.</p>
+							<p FAQ-Body>No, the church is for everyone! Regardless of your background, culture, age and history, you are welcomed and accepted here.</p>
 						</div>
 					</div>
 				</div>
-				<div class="panel panel-default">
-					<div class="panel-heading">
+				<div class="panel">
+					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse2">
-                                <a>What happens at services?</a>
+                                <a class="FAQ-title">What happens at services?</a>
                               </h4>
 
 					</div>
@@ -323,10 +323,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="panel panel-default">
-					<div class="panel-heading">
+				<div class="panel">
+					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse3">
-                                <a>Is anything expected of me?</a>
+                                <a class="FAQ-title">Is anything expected of me?</a>
                               </h4>
 
 					</div>
@@ -341,10 +341,10 @@
 
 			<div class="panel-group col-sm-4" id="accordion2">
 
-				<div class="panel panel-default">
-					<div class="panel-heading">
+				<div class="panel">
+					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse4">
-                                <a>What should I wear?</a>
+                                <a class="FAQ-title">What should I wear?</a>
                               </h4>
 
 					</div>
@@ -354,10 +354,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="panel panel-default">
-					<div class="panel-heading">
+				<div class="panel">
+					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse5">
-                                <a>Do I have to give money?</a>
+                                <a class="FAQ-title">Do I have to give money?</a>
                               </h4>
 
 					</div>
@@ -367,10 +367,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="panel panel-default">
-					<div class="panel-heading">
+				<div class="panel">
+					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse6">
-                                <a>Is church serious or social?</a>
+                                <a class="FAQ-title">Is church serious or social?</a>
                               </h4>
 
 					</div>
@@ -389,10 +389,10 @@
 			</div>
 
 			<div class="panel-group col-sm-4" id="accordion3">
-				<div class="panel panel-default">
-					<div class="panel-heading">
+				<div class="panel">
+					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse7">
-                                <a>Will someone tell me what to believe?</a>
+                                <a class="FAQ-title">Will someone tell me what to believe?</a>
                               </h4>
 
 					</div>
@@ -402,10 +402,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="panel panel-default">
-					<div class="panel-heading">
+				<div class="panel">
+					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse8">
-                                <a>What if I have questions during the service?</a>
+                                <a class="FAQ-title">What if I have questions during the service?</a>
                               </h4>
 
 					</div>
@@ -415,10 +415,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="panel panel-default">
-					<div class="panel-heading">
+				<div class="panel">
+					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse9">
-                                <a>Where can I park?</a>
+                                <a class="FAQ-title">Where can I park?</a>
                               </h4>
 
 					</div>
@@ -651,7 +651,7 @@
 
 				<div class="col-md-6 col-sm-6 text-center">
 
-					<div id="map" style="width:100%; height:400px; background-color:grey;">
+					<div id="map" style="width:100%; height:300px; background-color:grey;">
 
 					</div>
 
