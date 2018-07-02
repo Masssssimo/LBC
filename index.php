@@ -69,7 +69,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-8 col-sm-offset-2 text-center">
+						
+						<h3>Welcome to the</h3>
 						<h3>Loughton Baptist Church</h3>
+<!--
 						<div class="flexslider intro-slider">
 							<ul class="slides">
 								<li>
@@ -86,6 +89,7 @@
 
 							</ul>
 						</div>
+-->
 						<!--flex slider-->
 
 					</div>
