@@ -134,7 +134,7 @@
 							<!-- Modal content-->
 							<div class="modal-content">
 								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<button type="button" class="close glyphicon" data-dismiss="modal">&times;</button>
 									<h3 class="modal-title">What is Alpha?</h3>
 								</div>
 								<div class="modal-body">
@@ -169,7 +169,7 @@
 							<!-- Modal content-->
 							<div class="modal-content">
 								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<button type="button" class="close glyphicon" data-dismiss="modal">&times;</button>
 									<h3 class="modal-title">Talks</h3>
 								</div>
 								<div class="modal-body">
@@ -204,7 +204,7 @@
 							<!-- Modal content-->
 							<div class="modal-content">
 								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<button type="button" class="close glyphicon" data-dismiss="modal">&times;</button>
 									<h3 class="modal-title">Food</h3>
 								</div>
 								<div class="modal-body">
@@ -238,7 +238,7 @@
 							<!-- Modal content-->
 							<div class="modal-content">
 								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<button type="button" class="close glyphicon" data-dismiss="modal">&times;</button>
 									<h3 class="modal-title">Discussions</h3>
 								</div>
 								<div class="modal-body">
@@ -320,7 +320,7 @@
 					</div>
 					<div id="collapse2" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
-							<p>You will be welcomed at the door by one of our ushers. Sit anywhere you like in the gathering room. There will be singing, prayers, and a sharing by a pastor who talks about how the Bible can bring hope and change in our daily lives. Children and youth go to their own groups in the middle of service. Services usually last an hour and a half. Free coffee and tea are available in between services at the foyer.</p>
+							<p>You will be welcomed at the door by one of our ushers. Sit anywhere you like in the gathering room. There will be singing, prayers, and a sharing by a pastor who talks about how the Bible can bring hope and change in our daily lives.<br>Children and youth go to their own groups in the middle of service. <br>Services usually last an hour and a half. <br>Free coffee and tea are available in between services at the foyer.</p>
 						</div>
 					</div>
 				</div>
@@ -333,7 +333,7 @@
 					</div>
 					<div id="collapse3" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
-							<p>Feel free to join in the singing of the songs (words are projected on the screen) but you can just enjoy listening to the songs. We also stand during this time, though you may sit if that is more comfortable with you. You do not have to bring a Bible as the passages will be shown on the screen. After the service, there are prayer opportunities if you would like to be prayed for.</p>
+							<p>Feel free to join in the singing of the songs (words are projected on the screen) but you can just enjoy listening to the songs.<br>We also stand during this time, though you may sit if that is more comfortable with you.<br>You do not have to bring a Bible as the passages will be shown on the screen.<br>After the service, there are prayer opportunities if you would like to be prayed for.</p>
 						</div>
 					</div>
 				</div>
@@ -364,7 +364,7 @@
 					</div>
 					<div id="collapse5" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
-							<p>Not at all! The services, children and youth programmes and refreshments are free. Our church building, staff and community work are funded by contributions, so we have a collection at every service. It is normal to let the bag pass without putting anything inside. There is no expectation to give a contribution.</p>
+							<p><b>Not at all!</b><br>The services, children and youth programmes and refreshments are free.<br>Our church building, staff and community work are funded by contributions, so we have a collection at every service.<br>It is normal to let the bag pass without putting anything inside. There is no expectation to give a contribution.</p>
 						</div>
 					</div>
 				</div>
@@ -377,7 +377,7 @@
 					</div>
 					<div id="collapse6" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
-							<p>Church life is a wonderful mix of both! We are serious about Jesus and how we live out His teachings in our lives. At the same time, we also enjoy fun, social activities together and have many planned in our church calendar. <br>Check them out here!.
+							<p>Church life is a wonderful mix of <b>both!</b><br>We are serious about Jesus and how we live out His teachings in our lives.<br>At the same time, we also enjoy fun, social activities together and have many planned in our church calendar. <br>Check them out here!.
 
 								<div class="col-sm-12 text-center scroll-to">
 									<a class="btn btn-md btn-yellow" href="#events" target="_blank">Events</a>
@@ -399,7 +399,7 @@
 					</div>
 					<div id="collapse7" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
-							<p>During the service, someone does give a talk at the front and it is a sharing of how God was, is and continues to be relevant in today’s world. The talk includes stories, pictures, testimonies and even jokes! And none of it is meant to intimidate or condemn anyone into believing anything. The message of Jesus is not an order or command of fear, it is instead a gentle invitation to love and hope.</p>
+							<p>During the service, someone does give a talk at the front and it is a sharing of how God was, is and continues to be relevant in today’s world.<br>The talk includes stories, pictures, testimonies and even jokes! And none of it is meant to intimidate or condemn anyone into believing anything.<br>The message of Jesus is not an order or command of fear, it is instead a gentle invitation to love and hope.</p>
 						</div>
 					</div>
 				</div>
@@ -425,7 +425,7 @@
 					</div>
 					<div id="collapse9" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
-							<p>We have a car park directly outside the church. When this is filled, please park responsibly along the surrounding streets. The parking spaces right in front of the church are reserved for those who have difficulty with mobility. </p>
+							<p>We have a car park directly outside the church. When this is filled, please park responsibly along the surrounding streets.<br>The parking spaces right in front of the church are reserved for those who have difficulty with mobility. </p>
 						</div>
 					</div>
 				</div>
@@ -633,7 +633,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3 center-title text-center">
-					<h3>About Us</h3>
+					<h3>Where to find us?</h3>
 					<span class="center-line"></span>
 				</div>
 			</div>
@@ -684,12 +684,12 @@
   		<form id="contact-form" method="post" action="contact.php" role="form">
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3 center-title text-center">
-						<h3 >Contact us</h3>
+						<h3>Contact us</h3>
 						<span class="center-line"></span>
 					</div>
-					<div class="col-md-6 col-sm-offset-3 text-center">
-						<p>To send us a message, please fill in all the fields marked with an astrix.<p4>
-					</div>
+				</div>
+				<div class="text-center">
+					<p class="contact-us">Fill in all the fields marked with an astrix.<p>
 				</div>
         <div class="controls">
   				<div class="row">
@@ -785,6 +785,6 @@
 	<script src="lightbox2/dist/js/lightbox.min.js" type="text/javascript"></script>
 	<!--restaurant custom js-->
 	<script src="js/restaurant-custom.js" type="text/javascript"></script>
-
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJYcq8FfeaeU551a5UVFaHhR1bURU3O2A&callback=initMap"></script>
 </body>
 </html>

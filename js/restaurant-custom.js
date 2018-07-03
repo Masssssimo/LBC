@@ -1,9 +1,3 @@
-/*Theme    : assan
- * Author  : Design_mylife
- * Version : V1.8
- *
- */
-
 
 
 //backstretch
@@ -42,6 +36,23 @@ $(function() {
     }
   });
 });
+
+// LBC MAP
+function initMap() {
+  var uluru = {
+    lat: 52.028481,
+    lng: -0.784393
+  };
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 17,
+    center: uluru
+  });
+  var marker = new google.maps.Marker({
+    position: uluru,
+    map: map
+  });
+}
+
 
 /* ==============================================
  Auto Close Responsive Navbar on Click

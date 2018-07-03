@@ -766,6 +766,11 @@ By ADAMSCHWARTZ
 }
 .modal-body{
   font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+.FAQ-title{
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
 }
 .FAQ-title:hover{
   color: white;
@@ -773,9 +778,61 @@ By ADAMSCHWARTZ
 .FAQ-body{
   border: 2px solid #f2b84b;
 }
-.contact-us{
-  font-size: 20px;
+
+@media screen and (max-width:414px) {
+  .contact-us{
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+  }
 }
+
+@media screen and (max-width: 600px) and (min-width:414px) {
+  .contact-us{
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 601px) {
+  .contact-us{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 769px) {
+  .contact-us{
+    font-family: "Raleway", sans-serif;
+    font-size: 21px;
+    line-height: 23px;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 1001px) {
+  .contact-us{
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    line-height: 28px;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .contact-us{
+    font-family: "Raleway", sans-serif;
+    font-size: 28px;
+    line-height: 30px;
+  }
+}
+
+/*icon-size*/
+.glyphicon {
+    font-size: 40px;
+}
+
 .form-contact{
     color: black;
   }
