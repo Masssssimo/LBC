@@ -779,6 +779,7 @@ By ADAMSCHWARTZ
   border: 2px solid #f2b84b;
 }
 
+/*Size of font next to map*/
 @media screen and (max-width:414px) {
   .contact-us{
     font-family: "Raleway", sans-serif;
@@ -812,6 +813,10 @@ By ADAMSCHWARTZ
     font-size: 21px;
     line-height: 23px;
   }
+  .FAQ-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 11px;
+  }
 }
 @media screen and (max-width: 1200px) and (min-width: 1001px) {
   .contact-us{
@@ -819,12 +824,20 @@ By ADAMSCHWARTZ
     font-size: 26px;
     line-height: 28px;
   }
+  .FAQ-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+  }
 }
 @media screen and (min-width: 1201px) {
   .contact-us{
     font-family: "Raleway", sans-serif;
     font-size: 28px;
     line-height: 30px;
+  }
+  .FAQ-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
   }
 }
 

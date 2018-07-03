@@ -296,6 +296,7 @@
 					<h3>New to LBC?</h3>
 					<span class="center-line"></span>
 					<h3>Here's what to expect!</h3>
+					<p class="contact-us">Click on the question below to see the answer!<p>
 				</div>
 			</div>
 			<div class="panel-group col-sm-4" id="accordion1">
