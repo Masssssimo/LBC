@@ -52,11 +52,12 @@
 					</li>
 					<li><a href="#newLBC">New To LBC</a>
 					</li>
+					
+					<li><a href="#meetwithus">Meet With Us</a>
+					</li>
 					<li><a href="#events">Events</a>
 					</li>
-					<li><a href="#team">Meet Us</a>
-					</li>
-					</li>
+					
 					<li><a href="#contact-us">Contact Us</a>
 					</li>
 				</ul>
@@ -442,6 +443,202 @@
 				<div class="col-sm-12 text-center">
 					<h2>Visit us!</h2>
 					<a class="btn btn-lg btn-yellow" href="https://goo.gl/maps/6sTLmCCVxnw" target="_blank">Directions</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--call to action-->
+
+    <section class="section-dishes" id="meetwithus">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3 center-title text-center">
+					<h3>Meet With Us</h3>
+					<span class="center-line"></span>
+					
+					<p class="contact-us">Click on a heading to find out more!<p>
+				</div>
+			</div>
+			<div class="panel-group col-sm-4" id="accardion1">
+				<div class="panel">
+					<div class="panel-heading btn-yellow">
+						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse10">
+                                <a class="FAQ-title" style="font-weight: bolder">Services</a>
+                              </h4>
+			</div>
+					<div id="collapse10" class="panel-collapse collapse FAQ-body">
+						<div class="panel-body text-center">
+							<p>Join us on Sundays</p>
+							
+							<h4 style="font-weight: bolder">9:30am and 11:15am services</h4>
+							
+							
+							
+			                <p>These gatherings are an opportunity to praise God together
+					  through song, prayer, Bible-based teaching and conversation with one another. </p>
+							
+							<p>Refreshments are provided in between the services. </p>
+							
+							<p>Children and youth (2 - 14 years) go to a variety of lively programmes some singing together in the main hall.</p>
+							
+							<p>A creche room, where the whole service can be heard, is available for use for parents with babies and toddlers.</p>
+							
+							<h4 style="font-weight: bolder">6.30pm service</h4>
+							<p>A small gathering with hymns, prayer and Bible-based teaching.</p>
+							
+							
+						</div>
+					</div>
+				</div>
+				<div class="panel">
+					<div class="panel-heading btn-yellow">
+						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse11">
+                                <a class="FAQ-title" style="font-weight: bolder">English Classes</a>
+                              </h4>
+
+					</div>
+					<div id="collapse11" class="panel-collapse collapse FAQ-body">
+						<div class="panel-body text-center">
+							<h4 style="font-weight: bolder">Learn to speak everyday English in a friendly and supportive group</h4>
+							<p>There are 3 levels of classes (elementary - intermediate) and these are held in the church on:</p>
+							<h4 style="font-weight: bolder">Wednesdays, 9.30 - 11.30am (term-time only).</h4>
+							
+							<div class="col-sm-12 text-center scroll-to">
+									<a class="btn btn-md btn-yellow" href="#contact-us" target="_blank">Register by contacting us</a>
+								</div>
+							
+							
+							
+						</div>
+					</div>
+				</div>
+<!--
+				<div class="panel">
+					<div class="panel-heading btn-yellow">
+						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse12">
+                                <a class="FAQ-title">Is anything expected of me?</a>
+                              </h4>
+
+					</div>
+					<div id="collapse12" class="panel-collapse collapse FAQ-body">
+						<div class="panel-body text-center">
+							<p>Feel free to join in the singing of the songs (words are projected on the screen) but you can just enjoy listening to the songs.<br>We also stand during this time, though you may sit if that is more comfortable with you.<br>You do not have to bring a Bible as the passages will be shown on the screen.<br>After the service, there are prayer opportunities if you would like to be prayed for.</p>
+						</div>
+					</div>
+				</div>
+-->
+
+			</div>
+
+			<div class="panel-group col-sm-4" id="accardion2">
+
+				<div class="panel">
+					<div class="panel-heading btn-yellow">
+						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse13">
+                                <a class="FAQ-title" style="font-weight: bolder">Coffee Plus</a>
+                              </h4>
+
+					</div>
+					<div id="collapse13" class="panel-collapse collapse FAQ-body">
+						<div class="panel-body text-center">
+							<h4 style="font-weight: bolder">A social group for those aged 50 and above</h4>
+							<p> Come and join us for coffee, chat, various activities, meals, talks, walks and more! Held at the church every Wednesday, 10.30am onwards.</p>
+						</div>
+					</div>
+				</div>
+				<div class="panel">
+					<div class="panel-heading btn-yellow">
+						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse14">
+                                <a class="FAQ-title" style="font-weight: bolder">Parent and Toddlers</a>
+							    
+                              </h4>
+
+					</div>
+					<div id="collapse14" class="panel-collapse collapse FAQ-body">
+						<div class="panel-body text-center">
+							<h4 style="font-weight: bolder">A safe and fun environment for carers of babies and young children</h4>
+							<p>Held on Thursday mornings, 9.30 - 11.30am (term-time only), there will be art and crafts, singing/action rhymes, and refreshments. Open to parents/grandparents/carers of babies and children before they start pre-school. </p>
+						</div>
+					</div>
+				</div>
+<!--
+				<div class="panel">
+					<div class="panel-heading btn-yellow">
+						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse15">
+                                <a class="FAQ-title">Is church serious or social?</a>
+                              </h4>
+
+					</div>
+					<div id="collapse15" class="panel-collapse collapse FAQ-body">
+						<div class="panel-body text-center">
+							<p>Church life is a wonderful mix of <b>both!</b><br>We are serious about Jesus and how we live out His teachings in our lives.<br>At the same time, we also enjoy fun, social activities together and have many planned in our church calendar. <br>Check them out here!.
+
+								<div class="col-sm-12 text-center scroll-to">
+									<a class="btn btn-md btn-yellow" href="#events" target="_blank">Events</a>
+								</div>
+
+						</div>
+					</div>
+				</div>
+-->
+
+			</div>
+
+			<div class="panel-group col-sm-4" id="accardion3">
+				<div class="panel">
+					<div class="panel-heading btn-yellow">
+						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse16">
+                                <a class="FAQ-title" style="font-weight: bolder">Lunch Club</a>
+                              </h4>
+
+					</div>
+					<div id="collapse16" class="panel-collapse collapse FAQ-body">
+						<div class="panel-body text-center">
+							<h4 style="font-weight: bolder">Food for the body and soul</h4>
+							<p>Enjoy a home cooked 2-course hot lunch on the 2nd Thursday of each month, 12:30pm. A short talk with coffee and tea is held after.</p>
+						</div>
+					</div>
+				</div>
+				<div class="panel">
+					<div class="panel-heading btn-yellow">
+						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse17">
+                                <a class="FAQ-title" style="font-weight: bolder">Metafit Exercise Classes</a>
+                              </h4>
+
+					</div>
+					<div id="collapse17" class="panel-collapse collapse FAQ-body">
+						<div class="panel-body text-center">
+							<p>Metafit is a 30-minute bodyweight only, High Intensity Interval Training (HIIT) workout. Bring along a water bottle, towel, exercise mat and foam roller, if you have one. These classes take place on Mondays, 7.30pm (term-time only). Get fit with us! </p>
+						</div>
+					</div>
+				</div>
+<!--
+				<div class="panel">
+					<div class="panel-heading btn-yellow">
+						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse18">
+                                <a class="FAQ-title">Where can I park?</a>
+                              </h4>
+
+					</div>
+					<div id="collapse18" class="panel-collapse collapse FAQ-body">
+						<div class="panel-body text-center">
+							<p>We have a car park directly outside the church. When this is filled, please park responsibly along the surrounding streets.<br>The parking spaces right in front of the church are reserved for those who have difficulty with mobility. </p>
+						</div>
+					</div>
+				</div>
+-->
+			</div>
+		</div>
+		</div>
+	</section>
+	<!--section dishes-->
+
+<section class="cta">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h2>What to put here?</h2>
+					<a class="btn btn-lg btn-yellow" href="https://goo.gl/maps/6sTLmCCVxnw" target="_blank">Lets decide later</a>
 				</div>
 			</div>
 		</div>
