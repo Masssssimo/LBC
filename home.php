@@ -58,6 +58,12 @@
 					<li><a href="#events">Events</a>
 					</li>
 					
+					<li><a href="#regulars-area">Regulars' Area</a>
+					</li>
+					
+					<li><a href="#about-us">About Us</a>
+					</li>
+					
 					<li><a href="#contact-us">Contact Us</a>
 					</li>
 				</ul>
@@ -504,7 +510,7 @@
 							<h4 style="font-weight: bolder">Wednesdays, 9.30 - 11.30am (term-time only).</h4>
 							
 							<div class="col-sm-12 text-center scroll-to">
-									<a class="btn btn-md btn-yellow" href="#contact-us" target="_blank">Register by contacting us</a>
+									<a class="btn btn-md btn-yellow" href="#contact-form" target="_blank">Register by contacting us</a>
 								</div>
 							
 							
@@ -512,21 +518,6 @@
 						</div>
 					</div>
 				</div>
-<!--
-				<div class="panel">
-					<div class="panel-heading btn-yellow">
-						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse12">
-                                <a class="FAQ-title">Is anything expected of me?</a>
-                              </h4>
-
-					</div>
-					<div id="collapse12" class="panel-collapse collapse FAQ-body">
-						<div class="panel-body text-center">
-							<p>Feel free to join in the singing of the songs (words are projected on the screen) but you can just enjoy listening to the songs.<br>We also stand during this time, though you may sit if that is more comfortable with you.<br>You do not have to bring a Bible as the passages will be shown on the screen.<br>After the service, there are prayer opportunities if you would like to be prayed for.</p>
-						</div>
-					</div>
-				</div>
--->
 
 			</div>
 
@@ -561,26 +552,7 @@
 						</div>
 					</div>
 				</div>
-<!--
-				<div class="panel">
-					<div class="panel-heading btn-yellow">
-						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse15">
-                                <a class="FAQ-title">Is church serious or social?</a>
-                              </h4>
 
-					</div>
-					<div id="collapse15" class="panel-collapse collapse FAQ-body">
-						<div class="panel-body text-center">
-							<p>Church life is a wonderful mix of <b>both!</b><br>We are serious about Jesus and how we live out His teachings in our lives.<br>At the same time, we also enjoy fun, social activities together and have many planned in our church calendar. <br>Check them out here!.
-
-								<div class="col-sm-12 text-center scroll-to">
-									<a class="btn btn-md btn-yellow" href="#events" target="_blank">Events</a>
-								</div>
-
-						</div>
-					</div>
-				</div>
--->
 
 			</div>
 
@@ -612,26 +584,183 @@
 						</div>
 					</div>
 				</div>
-<!--
-				<div class="panel">
-					<div class="panel-heading btn-yellow">
-						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse18">
-                                <a class="FAQ-title">Where can I park?</a>
-                              </h4>
 
-					</div>
-					<div id="collapse18" class="panel-collapse collapse FAQ-body">
-						<div class="panel-body text-center">
-							<p>We have a car park directly outside the church. When this is filled, please park responsibly along the surrounding streets.<br>The parking spaces right in front of the church are reserved for those who have difficulty with mobility. </p>
-						</div>
-					</div>
-				</div>
--->
 			</div>
 		</div>
-		</div>
+		
+		     <!-- medium and large screeens -->
+<!--
+          <div class="container">
+                  <div class="row">
+                    <div class="col-md-12 ">
+
+                          <br />
+                          <br />
+
+                          <div id="imageCarousel" class="carousel slide" data-interval="5000" data-ride="carousel" data-pause="hover" data-wrap="true">
+
+                             <ol class="carousel-indicators">
+                                  <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+                                  <li data-target="#imageCarousel" data-slide-to="1"></li>
+                                  <li data-target="#imageCarousel" data-slide-to="2"></li>
+                              </ol> 
+
+                            <div class="carousel-inner">
+                              <div class="item active">
+                                <div class="row">
+                                  <div class="col-sm-4 text-center">
+                                    <img src="img/resto/tinakettle.jpg" class="img-responsive">
+
+
+                                    <br />
+                                    <h3>Tina Kettle<br />
+                                                    Mondays, 7.00pm<br />
+                                                    Great Linford
+                                                  </h3>
+
+
+                                    <p>We are an all-ladies group offering support to one another. We aim to apply our faith to the way we live our lives by understanding our triune God and ourselves more. </p>
+
+                                  </div>
+                                  <div class="col-sm-4 text-center">
+                                    <img src="img/resto/02Margaret Godfrey .jpg" class="img-responsive">
+                                    <br />
+                                    <h3>Margaret Godfrey & Jill Bush<br />
+                                                    Tuesdays, 10.00am (term-time only)<br />
+                                                    LBC
+                                                  </h3>
+
+
+                                    <p>We are made up of a variety of nationalities, backgrounds, ages and in all areas of Milton Keynes. A very interactive group, we start the Bible over tea and coffee. We look forward to having you with us. </p>
+                                  </div>
+                                  <div class="col-sm-4 text-center">
+                                    <img src="img/resto/03Tony and Sarah McGinley.jpg" class="img-responsive">
+                                    <br />
+                                    <h3>Tony & Sarah McGinley<br />
+                                                    Tuesdays, 7.30pm<br />
+                                                    Great Holm
+                                                  </h3>
+
+
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <div class="row">
+                                  <div class="col-sm-4 text-center">
+                                    <img src="img/resto/04Trevor and Mary Giles.jpg" class="img-responsive">
+                                    <br />
+                                    <h3>Trevor & Mary Giles<br />
+                                                    Tuesdays, 7.30pm (term-time only)<br />
+                                                    Loughton
+                                                  </h3>
+
+
+                                    <p>We are a group of families and singles, and spend the evening together with some singing, prayer and studying the Bible. We organise social gatherings a few times a year as we enjoy each other’s company. </p>
+                                  </div>
+                                  <div class="col-sm-4 text-center">
+                                    <img src="img/resto/05Charlie and Lynette Galiszewski.jpg" class="img-responsive">
+                                    <br />
+                                    <h3>Charlie & Lynette Galiszewski<br />
+                                                    Wednesdays, 7.15pm<br />
+                                                    Bradwell Common
+                                                  </h3>
+
+
+                                    <p>A group of all ages and nationalities, we are passionate about understanding the roots of our Christian faith and modelling after the early church. Join us for a refreshing time of Bible study, prayer, refreshments and song!
+                                      </p>
+                                  </div>
+                                  <div class="col-sm-4 text-center">
+                                    <img src="img/resto/06Peter and Jill Bush.jpg" class="img-responsive">
+                                    <br />
+                                    <h3>Peter & Jill Bush<br />
+                                                  Wednesdays, 7.30pm <br />
+                                                Shenley Wood Village
+                                                </h3>
+
+                                    <p>
+                                      We are a small group of friends who believe God’s Word is a “lamp to our feet, and a light to our path.” Through reading His word together, He empowers us to be salt and light wherever He places us. We welcome any who wish to learn with us.
+
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item">
+                                <div class="row">
+                                  <div class="col-sm-4 text-center">
+                                    <img src="img/resto/07Ben and Ruth Ruston.jpg" class="img-responsive">
+                                    <br />
+                                    <h3>Ben & Ruth Ruston<br />
+                                                  Thursdays, 7.00pm<br />
+                                                  Kingsmead
+                                                </h3>
+
+
+                                    <p>Our house group is made up predominantly of people living on the west side of Milton Keynes. Come join us after work to learn more about the BIble and pray together! </p>
+                                  </div>
+                                  <div class="col-sm-4 text-center">
+                                    <img src="img/resto/08Richard and Anca Theil.jpg" class="img-responsive">
+                                    <br />
+                                    <h3>Richard and Anca Theil<br />
+                                                    Thursdays, 7.00pm<br />
+                                                    Heelands
+                                                  </h3>
+
+
+                                    <p>A group for the 20 and 30-year olds, we enjoy doing life together. At every gathering, we also set aside time for girl-talk and guy-speak. P.S We love pizza and cake! </p>
+                                  </div>
+                                  <div class="col-sm-4 text-center">
+                                    <img src="img/resto/09Iain and Angie Row.jpg" class="img-responsive">
+                                    <br />
+                                    <h3>Iain and Angie Row & Michael and Debbie Hulmes<br />
+                                                    Bi-weekly Thursdays, 8.00pm<br />
+                                                    Newport Pagnell
+                                                  </h3>
+
+
+                                    <p>We are a group consisting of families who live in the area. We seek to encourage each other in the different places and groups that God has already placed us. All are welcome to gather with us. </p>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item">
+                                <div class="row">
+                                  <div class="col-sm-4 text-center">
+                                    <img src="img/resto/09Mike and Debbie Hulmes.jpg" class="img-responsive">
+                                    <br />
+                                    <h3>Frances and Pat Godfrey<br />
+                                              Bi-weekly Thursdays, 7.30pm<br />
+                                              Two Mile Ash
+                                            </h3>
+
+
+                                    <p>We are a small and newly established group of mixed ethnicities and ages. We have a desire to build each other up so that we model Christian fellowship and missions in the area we live and work. Our interests are varied, but
+                                      we share a common enjoyment of food! We welcome all to join us. </p>
+                                  </div>
+
+                                </div>
+                              </div>
+
+
+                            </div>
+
+                            <a href="#imageCarousel" class="carousel-control left" data-slide="prev" style="background:none; color:#000000; margin-left:-120px;">
+                                  <span class="glyphicon glyphicon-chevron-left"></span>
+                              </a>
+                            <a href="#imageCarousel" class="carousel-control right" data-slide="next" style="background:none; color:#000000; margin-right:-120px;">
+                                  <span class="glyphicon glyphicon-chevron-right"></span>
+                              </a>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+-->
+		
 	</section>
-	<!--section dishes-->
+		
+		
 
 <section class="cta">
 		<div class="container">
@@ -651,9 +780,7 @@
 				<div class="col-sm-6 col-sm-offset-3 center-title text-center">
 					<h3>Upcoming events</h3>
 					<span class="center-line"></span>
-					<p>
-						Checkout the upcoming events
-					</p>
+					
 				</div>
 			</div>
 			<!--section title-->
@@ -710,12 +837,38 @@
 		</div>
 	</section>
 	<!--events-->
-
-	<section id="team" class="our-chefs">
+	
+	
+	<section class="cta">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h2>What to put here?</h2>
+					<a class="btn btn-lg btn-yellow" href="https://goo.gl/maps/6sTLmCCVxnw" target="_blank">Lets decide later</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="regulars-area" class="section-events">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3 center-title text-center">
-					<h3>Meet The Team</h3>
+					<h3>Regulars Area - Need Grid Calender with events marked in it</h3>
+					<span class="center-line"></span>
+					
+				</div>
+			</div>
+			<!--section title-->
+			
+	</section>
+	<!--events-->
+
+	<section id="about-us" class="our-chefs">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3 center-title text-center">
+					<h3>Church Team</h3>
 					<span class="center-line"></span>
 				</div>
 			</div>
@@ -725,6 +878,7 @@
 					<div class="chef-box">
 						<div class="chef-thumb">
 							<img src="img/resto/craig_sayle.jpg" class="img-responsive" alt="">
+<!--
 							<div class="chef-overlay">
 								<div class="chef-social">
 									<a href="#"><i class="fa fa-facebook"></i></a>
@@ -732,13 +886,14 @@
 									<a href="#"><i class="fa fa-linkedin"></i></a>
 								</div>
 							</div>
+-->
 						</div>
 						<!--chef thumb-->
 						<div class="chef-desc">
 							<h4>Rev. Craig Sayle</h4>
 							<em>Senior Pastor</em>
 							<p>
-								Email: craig@loughtonbaptistchurch.org
+								craig@loughtonbaptistchurch.org
 							</p>
 						</div>
 					</div>
@@ -749,6 +904,7 @@
 					<div class="chef-box">
 						<div class="chef-thumb">
 							<img src="img/resto/Nathan Marlam.jpg" class="img-responsive" alt="">
+<!--
 							<div class="chef-overlay">
 								<div class="chef-social">
 									<a href="#"><i class="fa fa-facebook"></i></a>
@@ -756,6 +912,7 @@
 									<a href="#"><i class="fa fa-linkedin"></i></a>
 								</div>
 							</div>
+-->
 						</div>
 						<!--chef thumb-->
 						<div class="chef-desc">
@@ -763,7 +920,9 @@
 							<em>Associate Pastor</em>
 							<p>
 
-								Email: nathan@loughtonbaptistchurch.org
+								nathan@loughtonbaptistchurch.org
+								<br>
+								01908 550614
 
 							</p>
 						</div>
@@ -778,6 +937,7 @@
 					<div class="chef-box">
 						<div class="chef-thumb">
 							<img src="img/resto/Tony McGinley.jpg" class="img-responsive" alt="">
+<!--
 							<div class="chef-overlay">
 								<div class="chef-social">
 									<a href="#"><i class="fa fa-facebook"></i></a>
@@ -785,13 +945,14 @@
 									<a href="#"><i class="fa fa-linkedin"></i></a>
 								</div>
 							</div>
+-->
 						</div>
 						<!--chef thumb-->
 						<div class="chef-desc">
 							<h4>Tony McGinley</h4>
 							<em>Youth Worker</em>
 							<p>
-								Email: youthworkertony@gmail.com
+								youthworkertony@gmail.com
 							</p>
 						</div>
 					</div>
@@ -802,6 +963,7 @@
 					<div class="chef-box">
 						<div class="chef-thumb">
 							<img src="img/resto/Susan Garvin.jpg" class="img-responsive" alt="">
+<!--
 							<div class="chef-overlay">
 								<div class="chef-social">
 									<a href="#"><i class="fa fa-facebook"></i></a>
@@ -809,13 +971,14 @@
 									<a href="#"><i class="fa fa-linkedin"></i></a>
 								</div>
 							</div>
+-->
 						</div>
 						<!--chef thumb-->
 						<div class="chef-desc">
 							<h4>Susan</h4>
 							<em>Secretary</em>
 							<p>
-								Email: office@loughtonbaptistchurch.org
+								 office@loughtonbaptistchurch.org
 							</p>
 						</div>
 					</div>
@@ -827,7 +990,7 @@
 	<!--Chefs section-->
 
 
-	<section id="about" class="about-section " >
+	<section id="contact-us" class="about-section" >
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3 center-title text-center">
@@ -842,7 +1005,7 @@
 					<div>
 						<p class="contact-us">
 							Loughton Baptist Church Bradwell Road<br> Loughton
-							<br> Milton Keynes<br> MK5 8AJ<br><br> Tel: 01908 232902<br><br> Email: office@loughtonbaptistchurch.org
+							<br> Milton Keynes<br> MK5 8AJ<br><br> Tel: 01908 232902<br><br> office@loughtonbaptistchurch.org
 						</p>
 					</div>
 				</div>
@@ -860,20 +1023,7 @@
 		</div>
 	</section>
 
-	<section class="cta">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 text-center">
-					<h2>Loughton Baptist Church</h2>
-					<a href="#about" class="btn btn-lg btn-yellow">Come and visit us</a>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-
-	<section id="contact-us" class="about-section">
+	<section id="contact-form" class="about-section">
 		<div class="container">
 
     <div class="row">
