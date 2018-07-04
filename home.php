@@ -52,18 +52,18 @@
 					</li>
 					<li><a href="#newLBC">New To LBC</a>
 					</li>
-					
+
 					<li><a href="#meetwithus">Meet With Us</a>
 					</li>
 					<li><a href="#events">Events</a>
 					</li>
-					
-					<li><a href="#regulars-area">Regulars' Area</a>
+
+					<li><a href="#regulars-area">Regular's Area</a>
 					</li>
-					
+
 					<li><a href="#about-us">About Us</a>
 					</li>
-					
+
 					<li><a href="#contact-us">Contact Us</a>
 					</li>
 				</ul>
@@ -461,45 +461,80 @@
 				<div class="col-sm-6 col-sm-offset-3 center-title text-center">
 					<h3>Meet With Us</h3>
 					<span class="center-line"></span>
-					
-					<p class="contact-us">Click on a heading to find out more!<p>
 				</div>
 			</div>
+
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="owl-carousel owl-theme">
+						<div class="item">
+							<div class="card">
+								<img class="card-img-top" src="img/resto/02Margaret Godfrey .jpg" alt="Card image cap">
+								<div class="card-body">
+									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								</div>
+							</div>
+						</div>
+							<div class="item">
+								<div class="card">
+									<img class="card-img-top" src="img/resto/02Margaret Godfrey .jpg" alt="Card image cap">
+									<div class="card-body">
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									</div>
+								</div>
+							</div>
+							<div class="item"><h4>3</h4></div>
+							<div class="item"><h4>4</h4></div>
+							<div class="item"><h4>5</h4></div>
+							<div class="item"><h4>6</h4></div>
+							<div class="item"><h4>7</h4></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row" style="margin-bottom: -55px;">
+				<div class="col-sm-6 col-sm-offset-3 center-title text-center">
+					<br><br>
+					<h3 style="margin-bottom: -15px;">Click on a heading to find out more!</h3>
+					<span class="center-line"></span>
+				</div>
+			</div>
+
 			<div class="panel-group col-sm-4" id="accardion1">
 				<div class="panel">
 					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse10">
-                                <a class="FAQ-title" style="font-weight: bolder">Services</a>
+                                <a class="FAQ-title">Services</a>
                               </h4>
 			</div>
 					<div id="collapse10" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
 							<p>Join us on Sundays</p>
-							
+
 							<h4 style="font-weight: bolder">9:30am and 11:15am services</h4>
-							
-							
-							
+
+
+
 			                <p>These gatherings are an opportunity to praise God together
 					  through song, prayer, Bible-based teaching and conversation with one another. </p>
-							
+
 							<p>Refreshments are provided in between the services. </p>
-							
+
 							<p>Children and youth (2 - 14 years) go to a variety of lively programmes some singing together in the main hall.</p>
-							
+
 							<p>A creche room, where the whole service can be heard, is available for use for parents with babies and toddlers.</p>
-							
+
 							<h4 style="font-weight: bolder">6.30pm service</h4>
 							<p>A small gathering with hymns, prayer and Bible-based teaching.</p>
-							
-							
+
+
 						</div>
 					</div>
 				</div>
 				<div class="panel">
 					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse11">
-                                <a class="FAQ-title" style="font-weight: bolder">English Classes</a>
+                                <a class="FAQ-title">English Classes</a>
                               </h4>
 
 					</div>
@@ -508,13 +543,13 @@
 							<h4 style="font-weight: bolder">Learn to speak everyday English in a friendly and supportive group</h4>
 							<p>There are 3 levels of classes (elementary - intermediate) and these are held in the church on:</p>
 							<h4 style="font-weight: bolder">Wednesdays, 9.30 - 11.30am (term-time only).</h4>
-							
+
 							<div class="col-sm-12 text-center scroll-to">
 									<a class="btn btn-md btn-yellow" href="#contact-form" target="_blank">Register by contacting us</a>
 								</div>
-							
-							
-							
+
+
+
 						</div>
 					</div>
 				</div>
@@ -526,7 +561,7 @@
 				<div class="panel">
 					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse13">
-                                <a class="FAQ-title" style="font-weight: bolder">Coffee Plus</a>
+                                <a class="FAQ-title">Coffee Plus</a>
                               </h4>
 
 					</div>
@@ -540,8 +575,8 @@
 				<div class="panel">
 					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse14">
-                                <a class="FAQ-title" style="font-weight: bolder">Parent and Toddlers</a>
-							    
+                                <a class="FAQ-title">Parent and Toddlers</a>
+
                               </h4>
 
 					</div>
@@ -560,7 +595,7 @@
 				<div class="panel">
 					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse16">
-                                <a class="FAQ-title" style="font-weight: bolder">Lunch Club</a>
+                                <a class="FAQ-title">Lunch Club</a>
                               </h4>
 
 					</div>
@@ -574,7 +609,7 @@
 				<div class="panel">
 					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse17">
-                                <a class="FAQ-title" style="font-weight: bolder">Metafit Exercise Classes</a>
+                                <a class="FAQ-title">Metafit Exercise Classes</a>
                               </h4>
 
 					</div>
@@ -587,180 +622,10 @@
 
 			</div>
 		</div>
-		
-		     <!-- medium and large screeens -->
-<!--
-          <div class="container">
-                  <div class="row">
-                    <div class="col-md-12 ">
 
-                          <br />
-                          <br />
-
-                          <div id="imageCarousel" class="carousel slide" data-interval="5000" data-ride="carousel" data-pause="hover" data-wrap="true">
-
-                             <ol class="carousel-indicators">
-                                  <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
-                                  <li data-target="#imageCarousel" data-slide-to="1"></li>
-                                  <li data-target="#imageCarousel" data-slide-to="2"></li>
-                              </ol> 
-
-                            <div class="carousel-inner">
-                              <div class="item active">
-                                <div class="row">
-                                  <div class="col-sm-4 text-center">
-                                    <img src="img/resto/tinakettle.jpg" class="img-responsive">
-
-
-                                    <br />
-                                    <h3>Tina Kettle<br />
-                                                    Mondays, 7.00pm<br />
-                                                    Great Linford
-                                                  </h3>
-
-
-                                    <p>We are an all-ladies group offering support to one another. We aim to apply our faith to the way we live our lives by understanding our triune God and ourselves more. </p>
-
-                                  </div>
-                                  <div class="col-sm-4 text-center">
-                                    <img src="img/resto/02Margaret Godfrey .jpg" class="img-responsive">
-                                    <br />
-                                    <h3>Margaret Godfrey & Jill Bush<br />
-                                                    Tuesdays, 10.00am (term-time only)<br />
-                                                    LBC
-                                                  </h3>
-
-
-                                    <p>We are made up of a variety of nationalities, backgrounds, ages and in all areas of Milton Keynes. A very interactive group, we start the Bible over tea and coffee. We look forward to having you with us. </p>
-                                  </div>
-                                  <div class="col-sm-4 text-center">
-                                    <img src="img/resto/03Tony and Sarah McGinley.jpg" class="img-responsive">
-                                    <br />
-                                    <h3>Tony & Sarah McGinley<br />
-                                                    Tuesdays, 7.30pm<br />
-                                                    Great Holm
-                                                  </h3>
-
-
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="item">
-                                <div class="row">
-                                  <div class="col-sm-4 text-center">
-                                    <img src="img/resto/04Trevor and Mary Giles.jpg" class="img-responsive">
-                                    <br />
-                                    <h3>Trevor & Mary Giles<br />
-                                                    Tuesdays, 7.30pm (term-time only)<br />
-                                                    Loughton
-                                                  </h3>
-
-
-                                    <p>We are a group of families and singles, and spend the evening together with some singing, prayer and studying the Bible. We organise social gatherings a few times a year as we enjoy each other’s company. </p>
-                                  </div>
-                                  <div class="col-sm-4 text-center">
-                                    <img src="img/resto/05Charlie and Lynette Galiszewski.jpg" class="img-responsive">
-                                    <br />
-                                    <h3>Charlie & Lynette Galiszewski<br />
-                                                    Wednesdays, 7.15pm<br />
-                                                    Bradwell Common
-                                                  </h3>
-
-
-                                    <p>A group of all ages and nationalities, we are passionate about understanding the roots of our Christian faith and modelling after the early church. Join us for a refreshing time of Bible study, prayer, refreshments and song!
-                                      </p>
-                                  </div>
-                                  <div class="col-sm-4 text-center">
-                                    <img src="img/resto/06Peter and Jill Bush.jpg" class="img-responsive">
-                                    <br />
-                                    <h3>Peter & Jill Bush<br />
-                                                  Wednesdays, 7.30pm <br />
-                                                Shenley Wood Village
-                                                </h3>
-
-                                    <p>
-                                      We are a small group of friends who believe God’s Word is a “lamp to our feet, and a light to our path.” Through reading His word together, He empowers us to be salt and light wherever He places us. We welcome any who wish to learn with us.
-
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div class="item">
-                                <div class="row">
-                                  <div class="col-sm-4 text-center">
-                                    <img src="img/resto/07Ben and Ruth Ruston.jpg" class="img-responsive">
-                                    <br />
-                                    <h3>Ben & Ruth Ruston<br />
-                                                  Thursdays, 7.00pm<br />
-                                                  Kingsmead
-                                                </h3>
-
-
-                                    <p>Our house group is made up predominantly of people living on the west side of Milton Keynes. Come join us after work to learn more about the BIble and pray together! </p>
-                                  </div>
-                                  <div class="col-sm-4 text-center">
-                                    <img src="img/resto/08Richard and Anca Theil.jpg" class="img-responsive">
-                                    <br />
-                                    <h3>Richard and Anca Theil<br />
-                                                    Thursdays, 7.00pm<br />
-                                                    Heelands
-                                                  </h3>
-
-
-                                    <p>A group for the 20 and 30-year olds, we enjoy doing life together. At every gathering, we also set aside time for girl-talk and guy-speak. P.S We love pizza and cake! </p>
-                                  </div>
-                                  <div class="col-sm-4 text-center">
-                                    <img src="img/resto/09Iain and Angie Row.jpg" class="img-responsive">
-                                    <br />
-                                    <h3>Iain and Angie Row & Michael and Debbie Hulmes<br />
-                                                    Bi-weekly Thursdays, 8.00pm<br />
-                                                    Newport Pagnell
-                                                  </h3>
-
-
-                                    <p>We are a group consisting of families who live in the area. We seek to encourage each other in the different places and groups that God has already placed us. All are welcome to gather with us. </p>
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div class="item">
-                                <div class="row">
-                                  <div class="col-sm-4 text-center">
-                                    <img src="img/resto/09Mike and Debbie Hulmes.jpg" class="img-responsive">
-                                    <br />
-                                    <h3>Frances and Pat Godfrey<br />
-                                              Bi-weekly Thursdays, 7.30pm<br />
-                                              Two Mile Ash
-                                            </h3>
-
-
-                                    <p>We are a small and newly established group of mixed ethnicities and ages. We have a desire to build each other up so that we model Christian fellowship and missions in the area we live and work. Our interests are varied, but
-                                      we share a common enjoyment of food! We welcome all to join us. </p>
-                                  </div>
-
-                                </div>
-                              </div>
-
-
-                            </div>
-
-                            <a href="#imageCarousel" class="carousel-control left" data-slide="prev" style="background:none; color:#000000; margin-left:-120px;">
-                                  <span class="glyphicon glyphicon-chevron-left"></span>
-                              </a>
-                            <a href="#imageCarousel" class="carousel-control right" data-slide="next" style="background:none; color:#000000; margin-right:-120px;">
-                                  <span class="glyphicon glyphicon-chevron-right"></span>
-                              </a>
-                          </div>
-
-                        </div>
-                      </div>
-                    </div>
--->
-		
 	</section>
-		
-		
+
+
 
 <section class="cta">
 		<div class="container">
@@ -780,7 +645,7 @@
 				<div class="col-sm-6 col-sm-offset-3 center-title text-center">
 					<h3>Upcoming events</h3>
 					<span class="center-line"></span>
-					
+
 				</div>
 			</div>
 			<!--section title-->
@@ -837,8 +702,8 @@
 		</div>
 	</section>
 	<!--events-->
-	
-	
+
+
 	<section class="cta">
 		<div class="container">
 			<div class="row">
@@ -849,18 +714,18 @@
 			</div>
 		</div>
 	</section>
-	
+
 	<section id="regulars-area" class="section-events">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3 center-title text-center">
 					<h3>Regulars Area - Need Grid Calender with events marked in it</h3>
 					<span class="center-line"></span>
-					
+
 				</div>
 			</div>
 			<!--section title-->
-			
+
 	</section>
 	<!--events-->
 
