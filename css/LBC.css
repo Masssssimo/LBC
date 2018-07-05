@@ -965,3 +965,37 @@ By ADAMSCHWARTZ
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 30px; }
+
+
+/*Table CSS*/
+
+.border-table {
+	border: 1px solid #FFFFFF;
+}
+
+.table {
+	
+	text-align: center;
+	align-content: center;
+	border: 1px solid #FFFFFF;
+	
+	
+	
+}
+.table-headings {
+	background: #161616;
+	color: white;
+	text-align: center;
+	border: 1px solid #FFFFFF;
+	font-size: 20px;
+	align-content: center;
+	vertical-align: middle;
+}
+	
+.event-calender {
+	background: #F2B84B;
+	color: white;
+	align-content: center;
+	border: 1px solid #FFFFFF;
+	vertical-align: middle;
+}
