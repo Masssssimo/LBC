@@ -468,16 +468,7 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="owl-carousel owl-theme">
-						<?php perch_content('Slider 1'); ?>
-						<?php perch_content('Slider 2'); ?>
-						<?php perch_content('Slider 3'); ?>
-						<?php perch_content('Slider 4'); ?>
-						<?php perch_content('Slider 5'); ?>
-						<?php perch_content('Slider 6'); ?>
-						<?php perch_content('Slider 7'); ?>
-						<?php perch_content('Slider 8'); ?>
-						<?php perch_content('Slider 9'); ?>
-						<?php perch_content('Slider 10'); ?>
+						<?php perch_content('Slider'); ?>
 					</div>
 				</div>
 			</div>
@@ -495,27 +486,28 @@
 				<div class="panel">
 					<div class="panel-heading btn-yellow">
 
-                                <?php perch_content('Activity Title Collum-1 Row-1'); ?>
-					
+                                <?php perch_content('Activity Title Collumn-1 Row-1'); ?>
+
 			</div>
 					<div id="collapse10" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
-							<?php perch_content('Activity Content Collum-1 Row-1'); ?>
+							<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse10">
+							<?php perch_content('Activity Content Collumn-1 Row-1'); ?>
+							</h4>
 						</div>
 					</div>
 				</div>
 				<div class="panel">
 					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse11">
-                                <a class="FAQ-title">English Classes</a>
-                              </h4>
+                                <?php perch_content('Activity Title Collumn-1 Row-2'); ?>
+            </h4>
 
 					</div>
 					<div id="collapse11" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
-							<h4 style="font-weight: bolder">Learn to speak everyday English in a friendly and supportive group</h4>
-							<p>There are 3 levels of classes (elementary - intermediate) and these are held in the church on:</p>
-							<h4 style="font-weight: bolder">Wednesdays, 9.30 - 11.30am<br>(term-time only).</h4>
+
+							<?php perch_content('Activity Content Collumn-1 Row-2'); ?>
 
 							<div class="col-sm-12 text-center scroll-to">
 									<a class="btn btn-md btn-yellow" href="#contact-form" target="_blank">Register by contacting us</a>

@@ -402,5 +402,6 @@
     "Repeat the password": "Repeat the password",
     "Send welcome email": "Send welcome email",
     "Create user": "Create user",
-    "Required": "Required"
+    "Required": "Required",
+    "Your most recent change has been reverted.": "Your most recent change has been reverted."
 }
