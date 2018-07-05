@@ -500,7 +500,7 @@
 				<div class="panel">
 					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse11">
-                                <?php perch_content('Activity Title Collumn-1 Row-2'); ?>
+                              <?php perch_content('Activity Title Collumn-1 Row-2'); ?>
             </h4>
 
 					</div>
