@@ -841,6 +841,23 @@ By ADAMSCHWARTZ
   }
 }
 
+/* Aligning titles */
+.question-below{
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px){
+  .Tab{
+    margin-bottom: 4.5px;
+  }
+  .activity-title{
+    margin-bottom: 65px;
+  }
+  .question-below{
+    margin-bottom: 20px;
+  }
+}
+
 /*icon-size*/
 .glyphicon {
     font-size: 40px;

@@ -53,7 +53,7 @@
 					<li><a href="#newLBC">New To LBC</a>
 					</li>
 
-					<li><a href="#meetwithus">Meet With Us</a>
+					<li><a href="#house-groups">Meet With Us</a>
 					</li>
 					<li><a href="#events">Events</a>
 					</li>
@@ -299,20 +299,20 @@
 	<section class="section-dishes" id="newLBC">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6 col-sm-offset-3 center-title text-center">
+				<div class="col-sm-6 col-sm-offset-3 center-title text-center question-below">
 					<h3>New to LBC?</h3>
 					<span class="center-line"></span>
 					<h3>Here's what to expect!</h3>
-					<p class="contact-us">Click on the question below to see the answer!<p>
+					<p class="contact-us"><br>Click on the question below to see the answer!<p>
 				</div>
 			</div>
-			<div class="panel-group col-sm-4" id="accordion1">
+			<div class="panel-group col-sm-4 Tab" id="accordion1">
 				<div class="panel">
 					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse1">
                                 <a class="FAQ-title">Is church only for good people?</a>
                               </h4>
-			</div>
+					</div>
 					<div id="collapse1" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
 							<p>No, the church is for everyone! Regardless of your background, culture, age and history, you are welcomed and accepted here.</p>
@@ -348,7 +348,7 @@
 
 			</div>
 
-			<div class="panel-group col-sm-4" id="accordion2">
+			<div class="panel-group col-sm-4 Tab" id="accordion2">
 
 				<div class="panel">
 					<div class="panel-heading btn-yellow">
@@ -397,7 +397,7 @@
 
 			</div>
 
-			<div class="panel-group col-sm-4" id="accordion3">
+			<div class="panel-group col-sm-4 Tab" id="accordion3">
 				<div class="panel">
 					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse7">
@@ -455,79 +455,52 @@
 	</section>
 	<!--call to action-->
 
-    <section class="section-dishes" id="meetwithus">
+    <section class="section-dishes" id="house-groups">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3 center-title text-center">
-					<h3>Meet With Us</h3>
-					<span class="center-line"></span>
+						<h3>House Groups</h3>
+						<span class="center-line"></span>
+						<p class="contact-us">We are made up of a variety of nationalities, backgrounds, ages and in all areas of Milton Keynes.<br>Very interactive group, we start the Bible over tea and coffee.<br>We look forward to having you with us.</p>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="owl-carousel owl-theme">
-						<div class="item">
-							<div class="card">
-								<img class="card-img-top" src="img/resto/02Margaret Godfrey .jpg" alt="Card image cap">
-								<div class="card-body">
-									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								</div>
-							</div>
-						</div>
-							<div class="item">
-								<div class="card">
-									<img class="card-img-top" src="img/resto/02Margaret Godfrey .jpg" alt="Card image cap">
-									<div class="card-body">
-										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-									</div>
-								</div>
-							</div>
-							<div class="item"><h4>3</h4></div>
-							<div class="item"><h4>4</h4></div>
-							<div class="item"><h4>5</h4></div>
-							<div class="item"><h4>6</h4></div>
-							<div class="item"><h4>7</h4></div>
+						<?php perch_content('Slider 1'); ?>
+						<?php perch_content('Slider 2'); ?>
+						<?php perch_content('Slider 3'); ?>
+						<?php perch_content('Slider 4'); ?>
+						<?php perch_content('Slider 5'); ?>
+						<?php perch_content('Slider 6'); ?>
+						<?php perch_content('Slider 7'); ?>
+						<?php perch_content('Slider 8'); ?>
+						<?php perch_content('Slider 9'); ?>
+						<?php perch_content('Slider 10'); ?>
 					</div>
 				</div>
 			</div>
 
 			<div class="row" style="margin-bottom: -55px;">
-				<div class="col-sm-6 col-sm-offset-3 center-title text-center">
+				<div class="col-sm-6 col-sm-offset-3 center-title text-center activity-title">
 					<br><br>
-					<h3 style="margin-bottom: -15px;">Click on a heading to find out more!</h3>
+					<h3 style="margin-bottom: -15px;">Activities Below!</h3>
 					<span class="center-line"></span>
+					<p class="contact-us">Click on the activity below to see what it's all about!<p>
 				</div>
 			</div>
 
-			<div class="panel-group col-sm-4" id="accardion1">
+			<div class="panel-group col-sm-4 Tab" id="accardion1">
 				<div class="panel">
 					<div class="panel-heading btn-yellow">
-						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse10">
-                                <a class="FAQ-title">Services</a>
-                              </h4>
+
+                                <?php perch_content('Activity Title Collum-1 Row-1'); ?>
+					
 			</div>
 					<div id="collapse10" class="panel-collapse collapse FAQ-body">
 						<div class="panel-body text-center">
-							<p>Join us on Sundays</p>
-
-							<h4 style="font-weight: bolder">9:30am and 11:15am services</h4>
-
-
-
-			                <p>These gatherings are an opportunity to praise God together
-					  through song, prayer, Bible-based teaching and conversation with one another. </p>
-
-							<p>Refreshments are provided in between the services. </p>
-
-							<p>Children and youth (2 - 14 years) go to a variety of lively programmes some singing together in the main hall.</p>
-
-							<p>A creche room, where the whole service can be heard, is available for use for parents with babies and toddlers.</p>
-
-							<h4 style="font-weight: bolder">6.30pm service</h4>
-							<p>A small gathering with hymns, prayer and Bible-based teaching.</p>
-
-
+							<?php perch_content('Activity Content Collum-1 Row-1'); ?>
 						</div>
 					</div>
 				</div>
@@ -542,7 +515,7 @@
 						<div class="panel-body text-center">
 							<h4 style="font-weight: bolder">Learn to speak everyday English in a friendly and supportive group</h4>
 							<p>There are 3 levels of classes (elementary - intermediate) and these are held in the church on:</p>
-							<h4 style="font-weight: bolder">Wednesdays, 9.30 - 11.30am (term-time only).</h4>
+							<h4 style="font-weight: bolder">Wednesdays, 9.30 - 11.30am<br>(term-time only).</h4>
 
 							<div class="col-sm-12 text-center scroll-to">
 									<a class="btn btn-md btn-yellow" href="#contact-form" target="_blank">Register by contacting us</a>
@@ -556,7 +529,7 @@
 
 			</div>
 
-			<div class="panel-group col-sm-4" id="accardion2">
+			<div class="panel-group col-sm-4 Tab" id="accardion2">
 
 				<div class="panel">
 					<div class="panel-heading btn-yellow">
@@ -591,7 +564,7 @@
 
 			</div>
 
-			<div class="panel-group col-sm-4" id="accardion3">
+			<div class="panel-group col-sm-4 Tab" id="accardion3">
 				<div class="panel">
 					<div class="panel-heading btn-yellow">
 						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse16">

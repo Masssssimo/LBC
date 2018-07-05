@@ -387,5 +387,20 @@
     "Repeat new password": "Repeat new password",
     "Sorry, there's currently no content available based on that filter": "Sorry, there's currently no content available based on that filter",
     "View all": "View all",
-    "Subpage folder": "Subpage folder"
+    "Subpage folder": "Subpage folder",
+    "Delete Asset": "Delete Asset",
+    "Are you sure you wish to delete this asset? %sIt may be in use on your site. Deleting will result in the asset no longer being available.%s": "Are you sure you wish to delete this asset? %sIt may be in use on your site. Deleting will result in the asset no longer being available.%s",
+    "Username not available, try another.": "Username not available, try another.",
+    "Editing %s\u2019s User Account": "Editing %s\u2019s User Account",
+    "User details": "User details",
+    "Send new password instructions": "Send new password instructions",
+    "Manage Roles": "Manage Roles",
+    "Listing all user roles": "Listing all user roles",
+    "Add role": "Add role",
+    "Add User": "Add User",
+    "Adding a New User Account": "Adding a New User Account",
+    "Repeat the password": "Repeat the password",
+    "Send welcome email": "Send welcome email",
+    "Create user": "Create user",
+    "Required": "Required"
 }
