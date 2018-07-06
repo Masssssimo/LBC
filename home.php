@@ -667,7 +667,7 @@
 				
 					<table class="table">
 						<thead class="table-headings">
-							<tr class="table-headings">
+							<tr class="table-headings" valign="middle" align="middle">
 								<th scope="col" class="table-headings">Time</th>
 								<th scope="col" class="table-headings">Monday</th>
 								<th scope="col" class="table-headings">Tuesday</th>
@@ -679,37 +679,37 @@
 							</tr>
 						</thead>
 						<tbody>
-							<tr class="border-table">
+							<tr class="border-table" valign="middle" align="middle">
 								<th scope="row" class="table-headings" >Morning</th>
 								<td class="event-calender">10 am Church Prayer Meeting</td>
 								<td class="event-calender">10 am Housegroup (Margaret Godfrey)<br> (Term Time only)</td>
 								<td class="event-calender">9:30 am English classes <br> 10:30am Coffee Plus</td>
 								<td class="event-calender">9:30 am Parent and Toddler Group</td>
-								<td></td>
-								<td></td>
+								<td class="event-calender"></td>
+								<td class="event-calender"></td>
 								<td class="event-calender" >9:30 am Service<br>
 			                    11:15 am Service
 								</td>
 							</tr>
-							<tr class="border-table">
+							<tr class="border-table" valign="middle" align="middle" >
 								<th scope="row" class="table-headings">Afternoon</th>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
+								<td class="event-calender"></td>
+								<td class="event-calender"></td>
+								<td class="event-calender" ></td>
+								<td class="event-calender"></td>
+								<td class="event-calender"></td>
+								<td class="event-calender"></td>
+								<td class="event-calender"></td>
 							</tr>
-							<tr class="border-table">
+							<tr class="border-table" valign="middle" align="middle">
 								<th scope="row" class="table-headings">Evening</th>
-								<td class="event-calender" >7:30 pm Metafit</td>
+								<td class="event-calender"  >7:30 pm Metafit</td>
 								<td class="event-calender">7:30 pm Housegroup (T&M Gile)<br> (Term Time only)</td>
 								<td class="event-calender">7:30 pm Housegroup (P&J Bush)</td>
 								<td class="event-calender">7 pm Soup Run <br> 7 pm Housegroup (M&P Stothers) <br> 7:30 pm Housegroup (B&P Gidley) <br> 8 pm Housegroup (B&R Ruston) <br>
 								8 pm Housegroup (M&D Hulmes)</td>
-								<td></td>
-								<td></td>
+								<td class="event-calender"></td>
+								<td class="event-calender"></td>
 								<td class="event-calender">6:30 pm Service
 			                    
 								</td>

@@ -976,7 +976,7 @@ By ADAMSCHWARTZ
 .table {
 	
 	text-align: center;
-	align-content: center;
+	
 	border: 1px solid #FFFFFF;
 	
 	
@@ -988,14 +988,15 @@ By ADAMSCHWARTZ
 	text-align: center;
 	border: 1px solid #FFFFFF;
 	font-size: 20px;
-	align-content: center;
+	
 	vertical-align: middle;
+	
 }
 	
 .event-calender {
 	background: #F2B84B;
 	color: white;
-	align-content: center;
+	
 	border: 1px solid #FFFFFF;
 	vertical-align: middle;
 }
