@@ -659,7 +659,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3 center-title text-center">
-						<h3>Regulars Area - Need Grid Calender with events marked in it</h3>
+						<h3>Regulars Area</h3>
 						<span class="center-line"></span>
 
 					</div>
@@ -724,9 +724,9 @@
 			<div class="row" style="margin-bottom: -55px;">
 				<div class="col-sm-6 col-sm-offset-3 center-title text-center activity-title">
 					<br><br>
-					<h3 style="margin-bottom: -15px;">Activities Below!</h3>
+					<h3 style="margin-bottom: -15px;">Information</h3>
 					<span class="center-line"></span>
-					<p class="contact-us">Click on the activity below to see what it's all about!<p>
+					<p class="contact-us">Click on a yellow tab to see more information<p>
 					</div>
 				</div>
 
