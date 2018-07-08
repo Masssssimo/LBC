@@ -50,8 +50,10 @@
 				<ul class="nav navbar-nav scroll-to navbar-right">
 					<li><a href="#home">Home</a>
 					</li>
+
 					<li><a href="#alpha">Alpha</a>
 					</li>
+
 					<li><a href="#newLBC">New To LBC</a>
 					</li>
 
