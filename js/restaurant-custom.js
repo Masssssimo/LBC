@@ -20,14 +20,14 @@ $('.owl-carousel').owlCarousel({
 });
 
 $(function() {
-
-  // page is now ready, initialize the calendar...
-
   $('#calendar').fullCalendar({
-    // put your options and callbacks here
-  })
-
+    googleCalendarApiKey: "AIzaSyCSHzA3jk_EFctbBTVjpVZwAIVDvWuAVSE",
+    events: {
+      googleCalendarId: "rjtniivf54fk7gao0a3a8creds@group.calendar.google.com"
+    }
+  });
 });
+
 
 //backstretch
 $.backstretch([

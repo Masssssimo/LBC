@@ -1051,6 +1051,7 @@
 
 											<script src="fullcalendar/lib/moment.min.js"></script>
 											<script src="fullcalendar/fullcalendar.js"></script>
+										    <script type="text/javascript" src="fullcalendar/gcal.js"></script>
 
 
 
