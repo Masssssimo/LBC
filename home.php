@@ -668,11 +668,23 @@
 
 					<div class="row">
 						<div class="col-sm-12">
+<<<<<<< HEAD
 						<?php perch_content('Calendar-Input'); ?>
 						</div>
 				</div>
 
 
+=======
+							<?php perch_content('Calender'); ?>
+
+						</div>
+
+
+
+
+					</div>
+
+>>>>>>> da7b6dfaa62a232ccc3feac1a3ce802084d1bfdf
 
 
 
