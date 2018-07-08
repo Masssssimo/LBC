@@ -668,15 +668,15 @@
 					
 					<div class="row">
 						<div class="col-sm-12">
-						<iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=rjtniivf54fk7gao0a3a8creds%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Europe%2FLondon" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+							<?php perch_content('Calender'); ?>
+
+						</div>
+
+
+
+
 					</div>
-					
-					
-					
-					
-					</div>
-					
-					
+
 
 
 
