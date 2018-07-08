@@ -457,5 +457,8 @@
     "Republish Pages": "Republish Pages",
     "Republishing pages": "Republishing pages",
     "Are you sure you wish to republish all pages?": "Are you sure you wish to republish all pages?",
-    "The template for this region (%s) cannot be found.": "The template for this region (%s) cannot be found."
+    "The template for this region (%s) cannot be found.": "The template for this region (%s) cannot be found.",
+    "Republishing is under way.": "Republishing is under way.",
+    "Republishing: %s on page %s": "Republishing: %s on page %s",
+    "Republishing completed successfully": "Republishing completed successfully"
 }

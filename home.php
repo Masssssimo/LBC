@@ -875,9 +875,12 @@
 													<div class="chef-desc">
 														<h4>Tony McGinley</h4>
 														<em>Youth Worker</em>
+<!--
 														<p>
 															youthworkertony@gmail.com
 														</p>
+-->
+														<?php perch_content('Chef Desc'); ?>
 													</div>
 												</div>
 												<!--chef desc-->
