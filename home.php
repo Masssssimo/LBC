@@ -30,8 +30,9 @@
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
+	<link rel="stylesheet" href="fullcalendar/fullcalendar.css">
 
-	
+
 
 </head>
 <body data-spy="scroll">
@@ -658,26 +659,15 @@
 						<div class="col-sm-6 col-sm-offset-3 center-title text-center">
 							<h3>Regulars Area</h3>
 							<span class="center-line"></span>
-							
+
 							<p class="contact-us">Below are all the events that are scheduled for this week. Click on an event to get more details.</p>
 
 						</div>
 					</div>
-					
-			
-					
-					<div class="row">
-						<div class="col-sm-12">
-							<?php perch_content('Calender'); ?>
-
-						</div>
 
 
 
-
-					</div>
-
-
+					<div id='calendar'></div>
 
 
 
@@ -1058,9 +1048,12 @@
 											<!--restaurant custom js-->
 											<script src="js/restaurant-custom.js" type="text/javascript"></script>
 											<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJYcq8FfeaeU551a5UVFaHhR1bURU3O2A&callback=initMap"></script>
-										
-											
-										    
-											
+
+											<script src="fullcalendar/lib/moment.min.js"></script>
+											<script src="fullcalendar/fullcalendar.js"></script>
+
+
+
+
 										</body>
 										</html>

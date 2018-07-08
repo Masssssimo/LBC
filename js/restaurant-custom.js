@@ -19,6 +19,16 @@ $('.owl-carousel').owlCarousel({
     }
 });
 
+$(function() {
+
+  // page is now ready, initialize the calendar...
+
+  $('#calendar').fullCalendar({
+    // put your options and callbacks here
+  })
+
+});
+
 //backstretch
 $.backstretch([
     "img/resto/cross2.jpg"
