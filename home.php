@@ -30,6 +30,7 @@
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
+	<link rel="stylesheet" href="fullcalendar/fullcalendar.css">
 
 
 
@@ -666,26 +667,7 @@
 
 
 
-					<div class="row">
-						<div class="col-sm-12">
-<<<<<<< HEAD
-						<?php perch_content('Calendar-Input'); ?>
-						</div>
-				</div>
-
-
-=======
-							<?php perch_content('Calender'); ?>
-
-						</div>
-
-
-
-
-					</div>
-
->>>>>>> da7b6dfaa62a232ccc3feac1a3ce802084d1bfdf
-
+					<div id='calendar'></div>
 
 
 
@@ -1063,6 +1045,9 @@
 											<!--restaurant custom js-->
 											<script src="js/restaurant-custom.js" type="text/javascript"></script>
 											<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJYcq8FfeaeU551a5UVFaHhR1bURU3O2A&callback=initMap"></script>
+
+											<script src="fullcalendar/lib/moment.min.js"></script>
+											<script src="fullcalendar/fullcalendar.js"></script>
 
 
 
