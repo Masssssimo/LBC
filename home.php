@@ -30,8 +30,10 @@
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
-</head>
 
+	
+
+</head>
 <body data-spy="scroll">
 	<!-- Static navbar -->
 	<nav class="navbar navbar-default navbar-fixed-top">
@@ -654,61 +656,25 @@
 						<div class="col-sm-6 col-sm-offset-3 center-title text-center">
 							<h3>Regulars Area</h3>
 							<span class="center-line"></span>
+							
+							<p class="contact-us">Below are all the events that are scheduled for this week. Click on an event to get more details.</p>
 
 						</div>
 					</div>
-
-					<table class="table">
-						<thead class="table-headings">
-							<tr class="table-headings" valign="middle" align="middle">
-								<th scope="col" class="table-headings">Time</th>
-								<th scope="col" class="table-headings">Monday</th>
-								<th scope="col" class="table-headings">Tuesday</th>
-								<th scope="col" class="table-headings">Wednesday</th>
-								<th scope="col" class="table-headings">Thursday</th>
-								<th scope="col" class="table-headings">Friday</th>
-								<th scope="col" class="table-headings">Saturday</th>
-								<th scope="col" class="table-headings">Sunday</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="border-table" valign="middle" align="middle">
-								<th scope="row" class="table-headings" >Morning</th>
-								<td class="event-calender">10 am Church Prayer Meeting</td>
-								<td class="event-calender">10 am Housegroup (Margaret Godfrey)<br> (Term Time only)</td>
-								<td class="event-calender">9:30 am English classes <br> 10:30am Coffee Plus</td>
-								<td class="event-calender">9:30 am Parent and Toddler Group</td>
-								<td class="event-calender"></td>
-								<td class="event-calender"></td>
-								<td class="event-calender" >9:30 am Service<br>
-									11:15 am Service
-								</td>
-							</tr>
-							<tr class="border-table" valign="middle" align="middle" >
-								<th scope="row" class="table-headings">Afternoon</th>
-								<td class="event-calender"></td>
-								<td class="event-calender"></td>
-								<td class="event-calender" ></td>
-								<td class="event-calender"></td>
-								<td class="event-calender"></td>
-								<td class="event-calender"></td>
-								<td class="event-calender"></td>
-							</tr>
-							<tr class="border-table" valign="middle" align="middle">
-								<th scope="row" class="table-headings">Evening</th>
-								<td class="event-calender"  >7:30 pm Metafit</td>
-								<td class="event-calender">7:30 pm Housegroup (T&M Gile)<br> (Term Time only)</td>
-								<td class="event-calender">7:30 pm Housegroup (P&J Bush)</td>
-								<td class="event-calender">7 pm Soup Run <br> 7 pm Housegroup (M&P Stothers) <br> 7:30 pm Housegroup (B&P Gidley) <br> 8 pm Housegroup (B&R Ruston) <br>
-									8 pm Housegroup (M&D Hulmes)</td>
-									<td class="event-calender"></td>
-									<td class="event-calender"></td>
-									<td class="event-calender">6:30 pm Service
-
-									</td>
-								</tr>
-							</tbody>
-						</table>
+					
+			
+					
+					<div class="row">
+						<div class="col-sm-12">
+						<iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=rjtniivf54fk7gao0a3a8creds%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Europe%2FLondon" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+					</div>
+					
+					
+					
+					
+					</div>
+					
+					
 
 
 
@@ -1087,5 +1053,9 @@
 											<!--restaurant custom js-->
 											<script src="js/restaurant-custom.js" type="text/javascript"></script>
 											<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJYcq8FfeaeU551a5UVFaHhR1bURU3O2A&callback=initMap"></script>
+										
+											
+										    
+											
 										</body>
 										</html>
