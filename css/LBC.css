@@ -779,6 +779,18 @@ By ADAMSCHWARTZ
   border: 2px solid #f2b84b;
 }
 
+.delay1{
+  animation-delay: 0.5s;
+}
+.delay2{
+  animation-delay: 0.7s;
+}
+.delay3{
+  animation-delay: 0.9s;
+}
+.delay4{
+  animation-delay: 1.1s;
+}
 /*Size of font next to map*/
 @media screen and (max-width:414px) {
   .contact-us{
@@ -974,13 +986,13 @@ By ADAMSCHWARTZ
 }
 
 .table {
-	
+
 	text-align: center;
-	
+
 	border: 1px solid #FFFFFF;
-	
-	
-	
+
+
+
 }
 .table-headings {
 	background: #161616;
@@ -988,15 +1000,15 @@ By ADAMSCHWARTZ
 	text-align: center;
 	border: 1px solid #FFFFFF;
 	font-size: 20px;
-	
+
 	vertical-align: middle;
-	
+
 }
-	
+
 .event-calender {
 	background: #F2B84B;
 	color: white;
-	
+
 	border: 1px solid #FFFFFF;
 	vertical-align: middle;
 }
