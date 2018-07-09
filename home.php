@@ -133,14 +133,14 @@
 		</div>
 		<!--section title-->
 		<div class="row">
-			<div class="col-md-3 col-sm-6 text-center wow fadeInUp delay1">
+			<div class="col-md-3 col-sm-6 text-center">
 				<div class="img-service-box">
 
-					<img src="img/resto/alpha-logo.png" width="200" height="200" class="img-circle " alt="">
-					<span class="center-line"></span>
-					<h3>What is Alpha?</h3>
+					<img  class="wow fadeInUp delay1"src="img/resto/alpha-logo.png" width="200" height="200" class="img-circle " alt="">
+					<span class="center-line wow fadeInUp delay2"></span>
+					<h3 class="wow fadeInUp delay3">What is Alpha?</h3>
 					<p>
-						<button type="button" class="btn btn-yellow btn-md" data-toggle="modal" data-target="#whatIsAlpha">View Details <i class="fa fa-angle-right"></i></button>
+						<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay4" data-toggle="modal" data-target="#whatIsAlpha">View Details <i class="fa fa-angle-right"></i></button>
 					</p>
 				</div>
 				<!-- Modal -->
@@ -168,13 +168,13 @@
 
 			</div>
 			<!--img-service box-->
-			<div class="col-md-3 col-sm-6 text-center wow fadeInUp delay2">
+			<div class="col-md-3 col-sm-6 text-center">
 				<div class="img-service-box">
-					<img src="img/resto/talks1.png" width="200" height="200" class="img-circle " alt="">
-					<span class="center-line"></span>
-					<h3>Talks</h3>
+					<img class="wow fadeInUp delay1" src="img/resto/talks1.png" width="200" height="200" class="img-circle " alt="">
+					<span class="center-line wow fadeInUp delay2"></span>
+					<h3 class="wow fadeInUp delay3">Talks</h3>
 					<p>
-						<button type="button" class="btn btn-yellow btn-md" data-toggle="modal" data-target="#talks">View Details <i class="fa fa-angle-right"></i></button>
+						<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay4" data-toggle="modal" data-target="#talks">View Details <i class="fa fa-angle-right"></i></button>
 					</p>
 				</div>
 
@@ -203,13 +203,13 @@
 
 			</div>
 			<!--img-service box-->
-			<div class="col-md-3 col-sm-6 text-center wow fadeInUp delay3">
+			<div class="col-md-3 col-sm-6 text-center">
 				<div class="img-service-box">
-					<img src="img/resto/food.png" width="200" height="200" class="img-circle " alt="">
-					<span class="center-line"></span>
-					<h3>Food</h3>
+					<img class="wow fadeInUp delay1" src="img/resto/food.png" width="200" height="200" class="img-circle " alt="">
+					<span class="center-line wow fadeInUp delay2"></span>
+					<h3 class="wow fadeInUp delay3">Food</h3>
 					<p>
-						<button type="button" class="btn btn-yellow btn-md" data-toggle="modal" data-target="#food">View Details <i class="fa fa-angle-right"></i></button>
+						<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay4" data-toggle="modal" data-target="#food">View Details <i class="fa fa-angle-right"></i></button>
 					</p>
 				</div>
 
@@ -238,13 +238,13 @@
 
 			</div>
 			<!--img-service box-->
-			<div class="col-md-3 col-sm-6 text-center wow fadeInUp delay4">
+			<div class="col-md-3 col-sm-6 text-center">
 				<div class="img-service-box">
-					<img src="img/resto/discussion.png" width="200" height="200" class="img-circle " alt="">
-					<span class="center-line"></span>
-					<h3>Discussions</h3>
+					<img class="wow fadeInUp delay1" src="img/resto/discussion.png" width="200" height="200" class="img-circle " alt="">
+					<span class="center-line wow fadeInUp delay2"></span>
+					<h3 class="wow fadeInUp delay3">Discussions</h3>
 					<p>
-						<button type="button" class="btn btn-yellow btn-md" data-toggle="modal" data-target="#Dis">View Details <i class="fa fa-angle-right"></i></button>
+						<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay4" data-toggle="modal" data-target="#Dis">View Details <i class="fa fa-angle-right"></i></button>
 					</p>
 				</div>
 				<!-- Modal -->
@@ -1039,6 +1039,10 @@
 											<script src="js/wow.min.js" type="text/javascript"></script>
 											<!--popup js-->
 											<script src="lightbox2/dist/js/lightbox.min.js" type="text/javascript"></script>
+											<!-- calendar -->
+											<script src="fullcalendar/lib/moment.min.js"></script>
+											<script src="fullcalendar/fullcalendar.js"></script>
+										  <script type="text/javascript" src="fullcalendar/gcal.js"></script>
 											<!-- wow -->
 											<script src="js/wow.min.js"></script>
 											<script>
@@ -1050,9 +1054,6 @@
 											<script src="js/restaurant-custom.js" type="text/javascript"></script>
 											<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJYcq8FfeaeU551a5UVFaHhR1bURU3O2A&callback=initMap"></script>
 
-											<script src="fullcalendar/lib/moment.min.js"></script>
-											<script src="fullcalendar/fullcalendar.js"></script>
-										    <script type="text/javascript" src="fullcalendar/gcal.js"></script>
 
 
 
