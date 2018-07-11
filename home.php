@@ -70,8 +70,6 @@
 
 					<li><a href="#about-us">About Us</a>
 					</li>
-					
-					
 
 					<li><a href="#contact-us">Contact Us</a>
 					</li>
@@ -673,7 +671,7 @@
 
 
 
-
+					<?php // FIXME: fix this section ?>
 						<div class="row" style="margin-bottom: -55px;">
 							<div class="col-sm-6 col-sm-offset-3 center-title text-center activity-title">
 								<br><br>
@@ -867,12 +865,10 @@
 													<div class="chef-desc">
 														<h4>Tony McGinley</h4>
 														<em>Youth Worker</em>
-<!--
+
 														<p>
 															youthworkertony@gmail.com
 														</p>
--->
-														<?php perch_content('Chef Desc'); ?>
 													</div>
 												</div>
 												<!--chef desc-->
@@ -1002,6 +998,9 @@
 												</div>
 											</section>
 
+
+
+
 											<footer class="footer  text-center">
 												<div class="container">
 													<div class=" text-center">
@@ -1046,11 +1045,9 @@
 											<!-- wow -->
 											<script src="js/wow.min.js"></script>
 											<script>
-												
 											new WOW().init();
 											</script>
 											<!--restaurant custom js-->
-										     <script src="js/contact_me.js" type="text/javascript"></script>
 											<script src="js/restaurant-custom.js" type="text/javascript"></script>
 											<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJYcq8FfeaeU551a5UVFaHhR1bURU3O2A&callback=initMap"></script>
 
