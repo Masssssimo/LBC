@@ -712,11 +712,11 @@
 
 								<div class="panel">
 									<div class="panel-heading btn-yellow">
-										<?php perch_content('Activity Title Column-2 Row-1'); ?>
+										<?php perch_content('Activity Title Column-1 Row-3'); ?>
 									</div>
 									<div id="collapse18" class="panel-collapse collapse FAQ-body">
 										<div class="panel-body text-center">
-											<?php perch_content('Activity Content Column-2 Row-1'); ?>
+											<?php perch_content('Activity Content Column-1 Row-3'); ?>
 										</div>
 									</div>
 								</div>
@@ -749,12 +749,12 @@
 
 								<div class="panel">
 									<div class="panel-heading btn-yellow">
-										<?php perch_content('Activity Title Column-3 Row-1'); ?>
+										<?php perch_content('Activity Title Column-2 Row-3'); ?>
 
 									</div>
 									<div id="collapse21" class="panel-collapse collapse FAQ-body">
 										<div class="panel-body text-center">
-											<?php perch_content('Activity Content Column-3 Row-1'); ?></div>
+											<?php perch_content('Activity Content Column-2 Row-3'); ?></div>
 										</div>
 									</div>
 
@@ -785,11 +785,11 @@
 
 										<div class="panel">
 											<div class="panel-heading btn-yellow">
-												<?php perch_content('Activity Title Column-3 Row-2'); ?>
+												<?php perch_content('Activity Title Column-3 Row-3'); ?>
 											</div>
 											<div id="collapse24" class="panel-collapse collapse FAQ-body">
 												<div class="panel-body text-center">
-													<?php perch_content('Activity Content Column-3 Row-2'); ?>
+													<?php perch_content('Activity Content Column-3 Row-3'); ?>
 												</div>
 											</div>
 										</div>
