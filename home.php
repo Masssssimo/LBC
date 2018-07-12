@@ -585,10 +585,14 @@
 				</div>
 			</section>
 			<!--call to action-->
+	
+	
+	
+	
 
 			<section id="events" class="section-events">
 				<div class="container">
-					<div class="row wow fadeIn delay1">
+					<div class="row">
 						<div class="col-sm-6 col-sm-offset-3 center-title text-center">
 							<h3>Upcoming events</h3>
 							<span class="center-line"></span>
@@ -596,7 +600,7 @@
 						</div>
 					</div>
 					<!--section title-->
-					<div class="row wow fadeIn delay2">
+					<div class="row">
 						<div class="col-sm-4 margin-b-30">
 							<div class="event-thumb">
 								<?php perch_content('Event 1'); ?>
@@ -604,8 +608,30 @@
 							<!--event thumbnail-->
 							<div class="event-desc clearfix">
 								<div class="text-center">
-									<h4	class="modal-title">Indian Meat Opening</h4>
-									<button class="btn btn-yellow" href="#">View Details <i class="fa fa-angle-right"></i></button>
+									<h4	class="modal-title">Event 1</h4>
+									<button type="button" class="btn btn-yellow btn-md" data-toggle="modal" data-target="#event1">View Details<i class="fa fa-angle-right"></i></button>
+									
+									<div class="modal" id="event1" role="dialog">
+										<div class="modal-dialog">
+
+											<!-- Modal content-->
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close glyphicon" data-dismiss="modal">&times;</button>
+													<h3 class="modal-title">Event 1</h3>
+												</div>
+												<div class="modal-body">
+													<p>
+														Event 1 details
+													</p>
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												</div>
+											</div>
+
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -617,8 +643,30 @@
 							<!--event thumbnail-->
 							<div class="event-desc clearfix">
 								<div class="text-center">
-									<h4	class="modal-title">Indian Meat Opening</h4>
-									<button class="btn btn-yellow" href="#">View Details <i class="fa fa-angle-right"></i></button>
+									<h4	class="modal-title">Event 2</h4>
+									<button type="button" class="btn btn-yellow btn-md" data-toggle="modal" data-target="#event2">View Details<i class="fa fa-angle-right"></i></button>
+									
+									<div class="modal" id="event2" role="dialog">
+										<div class="modal-dialog">
+
+											<!-- Modal content-->
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close glyphicon" data-dismiss="modal">&times;</button>
+													<h3 class="modal-title">Event 2</h3>
+												</div>
+												<div class="modal-body">
+													<p>
+														Event 2 details
+													</p>
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												</div>
+											</div>
+
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -630,8 +678,30 @@
 							<!--event thumbnail-->
 							<div class="event-desc clearfix">
 								<div class="text-center">
-									<h4	class="modal-title">Indian Meat Opening</h4>
-									<button class="btn btn-yellow" href="#">View Details <i class="fa fa-angle-right"></i></button>
+									<h4	class="modal-title">Event 3</h4>
+									<button type="button" class="btn btn-yellow btn-md" data-toggle="modal" data-target="#event3">View Details<i class="fa fa-angle-right"></i></button>
+									
+									<div class="modal" id="event3" role="dialog">
+										<div class="modal-dialog">
+
+											<!-- Modal content-->
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close glyphicon" data-dismiss="modal">&times;</button>
+													<h3 class="modal-title">Event 3</h3>
+												</div>
+												<div class="modal-body">
+													<p>
+														Event 3 details
+													</p>
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												</div>
+											</div>
+
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
