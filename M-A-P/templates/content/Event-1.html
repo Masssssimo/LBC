@@ -1,0 +1,31 @@
+<div class="wow fadeInUp">
+  <img src="<perch:content id="image" type="image" label="Event Image" crop="true"/>" alt="<perch:content id="alt" type="smarttext" label="Event Image Description"/>" class="img-responsive">
+</div>
+<div class="event-desc clearfix">
+  <div class="text-center">
+    <h4	class="modal-title"><perch:content id="heading" type="smarttext" label="Title For Event" required="true"/></h4>
+    <button type="button" class="btn btn-yellow btn-md  wow fadeInUp delay1" data-toggle="modal" data-target="#event1">View Details<i class="fa fa-angle-right"></i></button>
+
+    <div class="modal fade" id="event1" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close glyphicon" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title"><perch:content id="headingPopUp" type="smarttext" label="Title For Event (Pop Up)" required="true"/></h3>
+          </div>
+          <div class="modal-body">
+            <p>
+              <perch:content id="body" type="smarttext" label="Information about Event 1" required="true"/>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

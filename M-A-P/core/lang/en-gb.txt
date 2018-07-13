@@ -460,5 +460,6 @@
     "The template for this region (%s) cannot be found.": "The template for this region (%s) cannot be found.",
     "Republishing is under way.": "Republishing is under way.",
     "Republishing: %s on page %s": "Republishing: %s on page %s",
-    "Republishing completed successfully": "Republishing completed successfully"
+    "Republishing completed successfully": "Republishing completed successfully",
+    "Template tag ID \u2018%s\u2019 contains disallowed characters": "Template tag ID \u2018%s\u2019 contains disallowed characters"
 }
