@@ -496,9 +496,7 @@
 						</div>
 						<div id="collapse10" class="panel-collapse collapse FAQ-body">
 							<div class="panel-body text-center">
-								<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse10">
 									<?php perch_content('Activity Content Column-1 Row-1'); ?>
-								</h4>
 							</div>
 						</div>
 					</div>
