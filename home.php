@@ -22,6 +22,8 @@
 	<link href="lightbox2/dist/css/lightbox.css" rel="stylesheet">
 	<!--Animate CSS-->
 	<link href="css/animate.css" rel="stylesheet">
+	<!-- jplayer theme -->
+	<link rel="stylesheet" type="text/css" href="css/jplayer-theme.css">
 	<!-- custom css-->
 	<link href="css/LBC.css" rel="stylesheet" type="text/css" media="screen">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -658,271 +660,276 @@
 							<br><br>
 							<h3 style="margin-bottom: -15px;">Sermons</h3>
 							<span class="center-line"></span>
-							<p class="contact-us">Click to the button below to view are Sermons.<p>
-								<a class="btn btn-lg btn-yellow" href="Sermons.php">View Sermons</a>
+
+
+							<div class="img-service-box">
+								<h4 style="margin-top: -15px;">To view are sermons click the button below!</h4>
+								<a href="sermons.php">
+								<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay1">View Sermons <i class="fa fa-angle-right"></i></button>
+								</a>
+							</div>
+
+						</div>
+					</div>
+
+
+					<!--section title-->
+
+				</section>
+				<!--events-->
+
+				<section id="about-us" class="our-chefs">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-6 col-sm-offset-3 center-title text-center">
+								<h3>Church Team</h3>
+								<span class="center-line"></span>
 							</div>
 						</div>
-
-
-
-
 						<!--section title-->
+						<div class="row">
+							<div class="col-sm-4 col-sm-offset-1 margin-b-30">
+								<div class="chef-box">
+									<div class="chef-thumb">
+										<img src="img/resto/craig_sayle.jpg" class="img-responsive" alt="">
 
-					</section>
-					<!--events-->
-
-					<section id="about-us" class="our-chefs">
-						<div class="container">
-							<div class="row">
-								<div class="col-sm-6 col-sm-offset-3 center-title text-center">
-									<h3>Church Team</h3>
-									<span class="center-line"></span>
-								</div>
-							</div>
-							<!--section title-->
-							<div class="row">
-								<div class="col-sm-4 col-sm-offset-1 margin-b-30">
-									<div class="chef-box">
-										<div class="chef-thumb">
-											<img src="img/resto/craig_sayle.jpg" class="img-responsive" alt="">
-
-										</div>
-										<!--chef thumb-->
-										<div class="chef-desc">
-											<h4>Rev. Craig Sayle</h4>
-											<em>Senior Pastor</em>
-											<p>
-												craig@loughtonbaptistchurch.org
-											</p>
-										</div>
 									</div>
-									<!--chef desc-->
-								</div>
-								<!--chef column-->
-								<div class="col-sm-4 col-sm-offset-2 margin-b-30">
-									<div class="chef-box">
-										<div class="chef-thumb">
-											<img src="img/resto/Nathan Marlam.jpg" class="img-responsive" alt="">
-
-										</div>
-										<!--chef thumb-->
-										<div class="chef-desc">
-											<h4>Rev. Nathan Marlam</h4>
-											<em>Associate Pastor</em>
-											<p>
-
-												nathan@loughtonbaptistchurch.org
-												<br>
-												01908 550614
-
-											</p>
-										</div>
-									</div>
-									<!--chef desc-->
-								</div>
-								<!--chef column-->
-							</div>
-
-							<div class="row">
-								<div class="col-sm-4 col-sm-offset-1 margin-b-30">
-									<div class="chef-box">
-										<div class="chef-thumb">
-											<img src="img/resto/Tony McGinley.jpg" class="img-responsive" alt="">
-
-										</div>
-										<!--chef thumb-->
-										<div class="chef-desc">
-											<h4>Tony McGinley</h4>
-											<em>Youth Worker</em>
-
-											<p>
-												youthworkertony@gmail.com
-											</p>
-										</div>
-									</div>
-									<!--chef desc-->
-								</div>
-								<!--chef column-->
-								<div class="col-sm-4 col-sm-offset-2 margin-b-30">
-									<div class="chef-box">
-										<div class="chef-thumb">
-											<img src="img/resto/Susan Garvin.jpg" class="img-responsive" alt="">
-
-										</div>
-										<!--chef thumb-->
-										<div class="chef-desc">
-											<h4>Susan</h4>
-											<em>Secretary</em>
-											<p>
-												office@loughtonbaptistchurch.org
-											</p>
-										</div>
-									</div>
-								</div>
-								<!--chef column-->
-							</div>
-						</div>
-					</section>
-					<!--Chefs section-->
-
-
-					<section id="contact-us" class="about-section" >
-						<div class="container">
-							<div class="row">
-								<div class="col-sm-6 col-sm-offset-3 center-title text-center">
-									<h3>Where to find us?</h3>
-									<span class="center-line"></span>
-								</div>
-							</div>
-							<!--section title-->
-							<div class="row">
-
-								<div class="col-md-6 col-sm-6">
-									<div>
-										<p class="contact-us">
-											Loughton Baptist Church Bradwell Road<br> Loughton
-											<br> Milton Keynes<br> MK5 8AJ<br><br> Tel: 01908 232902<br><br> office@loughtonbaptistchurch.org
+									<!--chef thumb-->
+									<div class="chef-desc">
+										<h4>Rev. Craig Sayle</h4>
+										<em>Senior Pastor</em>
+										<p>
+											craig@loughtonbaptistchurch.org
 										</p>
 									</div>
 								</div>
-
-
-								<div class="col-md-6 col-sm-6 text-center">
-
-									<div id="map" style="width:100%; height:300px; background-color:grey;">
+								<!--chef desc-->
+							</div>
+							<!--chef column-->
+							<div class="col-sm-4 col-sm-offset-2 margin-b-30">
+								<div class="chef-box">
+									<div class="chef-thumb">
+										<img src="img/resto/Nathan Marlam.jpg" class="img-responsive" alt="">
 
 									</div>
+									<!--chef thumb-->
+									<div class="chef-desc">
+										<h4>Rev. Nathan Marlam</h4>
+										<em>Associate Pastor</em>
+										<p>
 
+											nathan@loughtonbaptistchurch.org
+											<br>
+											01908 550614
+
+										</p>
+									</div>
 								</div>
-								<!-- Maps section -->
+								<!--chef desc-->
+							</div>
+							<!--chef column-->
+						</div>
+
+						<div class="row">
+							<div class="col-sm-4 col-sm-offset-1 margin-b-30">
+								<div class="chef-box">
+									<div class="chef-thumb">
+										<img src="img/resto/Tony McGinley.jpg" class="img-responsive" alt="">
+
+									</div>
+									<!--chef thumb-->
+									<div class="chef-desc">
+										<h4>Tony McGinley</h4>
+										<em>Youth Worker</em>
+
+										<p>
+											youthworkertony@gmail.com
+										</p>
+									</div>
+								</div>
+								<!--chef desc-->
+							</div>
+							<!--chef column-->
+							<div class="col-sm-4 col-sm-offset-2 margin-b-30">
+								<div class="chef-box">
+									<div class="chef-thumb">
+										<img src="img/resto/Susan Garvin.jpg" class="img-responsive" alt="">
+
+									</div>
+									<!--chef thumb-->
+									<div class="chef-desc">
+										<h4>Susan</h4>
+										<em>Secretary</em>
+										<p>
+											office@loughtonbaptistchurch.org
+										</p>
+									</div>
+								</div>
+							</div>
+							<!--chef column-->
+						</div>
+					</div>
+				</section>
+				<!--Chefs section-->
+
+
+				<section id="contact-us" class="about-section" >
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-6 col-sm-offset-3 center-title text-center">
+								<h3>Where to find us?</h3>
+								<span class="center-line"></span>
 							</div>
 						</div>
-					</section>
+						<!--section title-->
+						<div class="row">
 
-					<section id="contact-form" class="about-section">
-						<div class="container" style="margin-top: -80px">
-
-							<div class="row">
-
-								<div class="col-lg-8 col-lg-offset-2">
-									<form id="contact-form" method="post" action="contact.php" role="form">
-										<div class="row">
-											<div class="col-sm-6 col-sm-offset-3 center-title text-center">
-												<h3>Contact us</h3>
-												<span class="center-line"></span>
-											</div>
-										</div>
-										<div class="text-center">
-											<p class="contact-us">Fill in all the fields marked with an astrix.<p>
-											</div>
-											<div class="controls">
-												<div class="row">
-													<div class="col-md-6">
-														<div class="form-group">
-															<label for="form_name" class="form-contact">Firstname *</label>
-															<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-															<div class="help-block with-errors"></div>
-														</div>
-													</div>
-													<div class="col-md-6">
-														<div class="form-group">
-															<label for="form_lastname" class="form-contact">Lastname *</label>
-															<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-															<div class="help-block with-errors"></div>
-														</div>
-													</div>
-												</div>
-												<div class="row">
-													<div class="col-md-6">
-														<div class="form-group">
-															<label for="form_email" class="form-contact">Email *</label>
-															<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-															<div class="help-block with-errors"></div>
-														</div>
-													</div>
-													<div class="col-md-6">
-														<div class="form-group">
-															<label for="form_phone" class="form-contact">Phone</label>
-															<input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
-															<div class="help-block with-errors"></div>
-														</div>
-													</div>
-												</div>
-												<div class="row">
-													<div class="col-md-12">
-														<div class="form-group">
-															<label for="form_message" class="form-contact">Message *</label>
-															<textarea id="form_message" name="message" class="form-control" placeholder="Message for us *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
-															<div class="help-block with-errors"></div>
-														</div>
-													</div>
-													<div class="col-md-12">
-														<input type="submit" class="btn btn-success btn-send" value="Send message">
-													</div>
-												</div>
-											</div>
-
-										</form>
-
-									</div>
-								</section>
+							<div class="col-md-6 col-sm-6">
+								<div>
+									<p class="contact-us">
+										Loughton Baptist Church Bradwell Road<br> Loughton
+										<br> Milton Keynes<br> MK5 8AJ<br><br> Tel: 01908 232902<br><br> office@loughtonbaptistchurch.org
+									</p>
+								</div>
+							</div>
 
 
+							<div class="col-md-6 col-sm-6 text-center">
 
+								<div id="map" style="width:100%; height:300px; background-color:grey;">
 
-								<footer class="footer  text-center">
-									<div class="container">
-										<div class=" text-center">
-											<ul class="list-inline social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a>
-												</li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a>
-												</li>
-												<li><a href="#"><i class="fa fa-google-plus"></i></a>
-												</li>
-												<li><a href="#"><i class="fa fa-youtube"></i></a>
-												</li>
-											</ul>
+								</div>
+
+							</div>
+							<!-- Maps section -->
+						</div>
+					</div>
+				</section>
+
+				<section id="contact-form" class="about-section">
+					<div class="container" style="margin-top: -80px">
+
+						<div class="row">
+
+							<div class="col-lg-8 col-lg-offset-2">
+								<form id="contact-form" method="post" action="contact.php" role="form">
+									<div class="row">
+										<div class="col-sm-6 col-sm-offset-3 center-title text-center">
+											<h3>Contact us</h3>
+											<span class="center-line"></span>
 										</div>
 									</div>
-									<span>Loughton Baptist Church &copy; 2018</span>
-								</footer>
+									<div class="text-center">
+										<p class="contact-us">Fill in all the fields marked with an astrix.<p>
+										</div>
+										<div class="controls">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group">
+														<label for="form_name" class="form-contact">Firstname *</label>
+														<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+														<div class="help-block with-errors"></div>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group">
+														<label for="form_lastname" class="form-contact">Lastname *</label>
+														<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+														<div class="help-block with-errors"></div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group">
+														<label for="form_email" class="form-contact">Email *</label>
+														<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+														<div class="help-block with-errors"></div>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group">
+														<label for="form_phone" class="form-contact">Phone</label>
+														<input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+														<div class="help-block with-errors"></div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12">
+													<div class="form-group">
+														<label for="form_message" class="form-contact">Message *</label>
+														<textarea id="form_message" name="message" class="form-control" placeholder="Message for us *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+														<div class="help-block with-errors"></div>
+													</div>
+												</div>
+												<div class="col-md-12">
+													<input type="submit" class="btn btn-success btn-send" value="Send message">
+												</div>
+											</div>
+										</div>
 
-								<!-- jQuery -->
-								<script src="js/jquery.min.js"></script>
-								<!-- Bootstrap js-->
-								<script src="bootstrap/js/bootstrap.min.js"></script>
-								<!--easing plugin for smooth scroll-->
-								<script src="js/jquery.easing.1.3.min.js" type="text/javascript"></script>
-								<script src="js/jquery.backstretch.min.js" type="text/javascript"></script>
-								<!--flex slider plugin-->
-								<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
-								<!--owl carousel slider js-->
-								<script src="owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
-								<!-- jQuery UI -->
-								<script type="text/javascript" src="js/jquery-ui.min.js"></script>
-								<!--pace plugin-->
-								<script src="js/pace.min.js" type="text/javascript"></script>
-								<!--on scroll animation-->
-								<script src="js/wow.min.js" type="text/javascript"></script>
-								<!--popup js-->
-								<script src="lightbox2/dist/js/lightbox.min.js" type="text/javascript"></script>
-								<!-- calendar -->
-								<script src="fullcalendar/lib/moment.min.js"></script>
-								<script src="fullcalendar/fullcalendar.js"></script>
-								<script type="text/javascript" src="fullcalendar/gcal.js"></script>
-								<!-- wow -->
-								<script src="js/wow.min.js"></script>
-								<script>
-								new WOW().init();
-								</script>
-								<!--restaurant custom js-->
-								<script src="js/restaurant-custom.js" type="text/javascript"></script>
-								<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJYcq8FfeaeU551a5UVFaHhR1bURU3O2A&callback=initMap"></script>
+									</form>
+
+								</div>
+							</section>
 
 
 
 
+							<footer class="footer  text-center">
+								<div class="container">
+									<div class=" text-center">
+										<ul class="list-inline social">
+											<li><a href="#"><i class="fa fa-facebook"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-google-plus"></i></a>
+											</li>
+											<li><a href="#"><i class="fa fa-youtube"></i></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<span>Loughton Baptist Church &copy; 2018</span>
+							</footer>
 
-							</body>
-							</html>
+							<!-- jQuery -->
+							<script src="js/jquery.min.js"></script>
+							<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+							<script type="text/javascript" src="js/jplayer.playlist.min.js"></script>
+							<!-- Bootstrap js-->
+							<script src="bootstrap/js/bootstrap.min.js"></script>
+							<!--easing plugin for smooth scroll-->
+							<script src="js/jquery.easing.1.3.min.js" type="text/javascript"></script>
+							<script src="js/jquery.backstretch.min.js" type="text/javascript"></script>
+							<!--flex slider plugin-->
+							<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+							<!--owl carousel slider js-->
+							<script src="owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
+							<!-- jQuery UI -->
+							<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+							<!--pace plugin-->
+							<script src="js/pace.min.js" type="text/javascript"></script>
+							<!--on scroll animation-->
+							<script src="js/wow.min.js" type="text/javascript"></script>
+							<!--popup js-->
+							<script src="lightbox2/dist/js/lightbox.min.js" type="text/javascript"></script>
+							<!-- calendar -->
+							<script src="fullcalendar/lib/moment.min.js"></script>
+							<script src="fullcalendar/fullcalendar.js"></script>
+							<script type="text/javascript" src="fullcalendar/gcal.js"></script>
+							<!-- wow -->
+							<script src="js/wow.min.js"></script>
+							<script>
+							new WOW().init();
+							</script>
+							<!--restaurant custom js-->
+							<script src="js/restaurant-custom.js" type="text/javascript"></script>
+							<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJYcq8FfeaeU551a5UVFaHhR1bURU3O2A&callback=initMap"></script>
+
+
+
+						</body>
+						</html>
