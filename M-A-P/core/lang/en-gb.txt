@@ -461,5 +461,8 @@
     "Republishing is under way.": "Republishing is under way.",
     "Republishing: %s on page %s": "Republishing: %s on page %s",
     "Republishing completed successfully": "Republishing completed successfully",
-    "Template tag ID \u2018%s\u2019 contains disallowed characters": "Template tag ID \u2018%s\u2019 contains disallowed characters"
+    "Template tag ID \u2018%s\u2019 contains disallowed characters": "Template tag ID \u2018%s\u2019 contains disallowed characters",
+    "File name": "File name",
+    "Page already exists, or is a link only": "Page already exists, or is a link only",
+    "This page will have more pages below it": "This page will have more pages below it"
 }

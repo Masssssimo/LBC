@@ -1,5 +1,6 @@
-<html>
-
+<?php include('M-A-P/runtime.php'); ?>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -73,7 +74,7 @@
         </div>
         <div class="sermon-info">
           <p>
-            To <i><b>download</b></i> any of the Sermons:<br>1) Right-click on either the <i>"mp3"</i> or the <i>"oga"</i><br>(Make sure it is inline with the Sermon which you intend to download)<br>2) Then click "Save link as..."<br>3) Finally name the file and save it!
+            To <i><b>download</b></i> any of the Sermons:<br>1) Right-click on the <i>"mp3"</i><br>(Make sure it is inline with the Sermon which you intend to download)<br>2) Then click "Save link as..."<br>3) Finally name the file and save it!
           </p>
         </div>
       </div><!--section title-->
@@ -170,12 +171,7 @@
       jPlayer: "#jquery_jplayer_playlist",
       cssSelectorAncestor: "#jp_container_playlist"
     }, [
-      {
-        title:"Bubble",
-        free: Boolean,
-        mp3:"http://www.jplayer.org/audio/mp3/Miaow-07-Bubble.mp3",
-        oga:"http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
-      },
+         <?php perch_content('Sermons'); ?>
     ], {
       volume: 1.0,
       playlistOptions: {

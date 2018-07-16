@@ -665,7 +665,7 @@
 							<div class="img-service-box">
 								<h4 style="margin-top: -15px;">To view are sermons click the button below!</h4>
 								<a href="sermons.php">
-								<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay1">View Sermons <i class="fa fa-angle-right"></i></button>
+								<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay">View Sermons <i class="fa fa-angle-right"></i></button>
 								</a>
 							</div>
 
