@@ -652,6 +652,130 @@
 
 
 					<div id='calendar'></div>
+					
+					<div class="row" style="margin-bottom: -55px;">
+							<div class="col-sm-6 col-sm-offset-3 center-title text-center activity-title">
+								<br><br>
+								<h3 style="margin-bottom: -15px;">Information</h3>
+								<span class="center-line"></span>
+								<p class="contact-us">Click on a yellow tab to see more information<p>
+								</div>
+						</div>
+
+							<div class="panel-group col-sm-4 Tab" id="accardion1">
+								<div class="panel">
+									<div class="panel-heading btn-yellow">
+										<?php perch_content('Activity Title Column-1 Row-1'); ?>
+									</div>
+									<div id="collapse16" class="panel-collapse collapse FAQ-body">
+										<div class="panel-body text-center">
+											<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse16">
+												<?php perch_content('Activity Content Column-1 Row-1'); ?>
+											</h4>
+										</div>
+									</div>
+								</div>
+								<div class="panel">
+									<div class="panel-heading btn-yellow">
+										<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse17">
+											<?php perch_content('Activity Title Column-1 Row-2'); ?>
+										</h4>
+
+									</div>
+									<div id="collapse17" class="panel-collapse collapse FAQ-body">
+										<div class="panel-body text-center">
+											<?php perch_content('Activity Content Column-1 Row-2'); ?>
+										</div>
+									</div>
+								</div>
+
+								<div class="panel">
+									<div class="panel-heading btn-yellow">
+										<?php perch_content('Activity Title Column-1 Row-3'); ?>
+									</div>
+									<div id="collapse18" class="panel-collapse collapse FAQ-body">
+										<div class="panel-body text-center">
+											<?php perch_content('Activity Content Column-1 Row-3'); ?>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="panel-group col-sm-4 Tab" id="accardion2">
+
+								<div class="panel">
+									<div class="panel-heading btn-yellow">
+										<?php perch_content('Activity Title Column-2 Row-1'); ?>
+									</div>
+									<div id="collapse19" class="panel-collapse collapse FAQ-body">
+										<div class="panel-body text-center">
+											<?php perch_content('Activity Content Column-2 Row-1'); ?>
+										</div>
+									</div>
+								</div>
+
+								<div class="panel">
+									<div class="panel-heading btn-yellow">
+										<?php perch_content('Activity Title Column-2 Row-2'); ?>
+									</div>
+									<div id="collapse20" class="panel-collapse collapse FAQ-body">
+										<div class="panel-body text-center">
+											<?php perch_content('Activity Content Column-2 Row-2'); ?>
+										</div>
+									</div>
+								</div>
+
+								<div class="panel">
+									<div class="panel-heading btn-yellow">
+										<?php perch_content('Activity Title Column-2 Row-3'); ?>
+
+									</div>
+									<div id="collapse21" class="panel-collapse collapse FAQ-body">
+										<div class="panel-body text-center">
+											<?php perch_content('Activity Content Column-2 Row-3'); ?></div>
+										</div>
+									</div>
+
+
+								</div>
+
+								<div class="panel-group col-sm-4 Tab" id="accardion3">
+									<div class="panel">
+										<div class="panel-heading btn-yellow">
+											<?php perch_content('Activity Title Column-3 Row-1'); ?>
+
+										</div>
+										<div id="collapse22" class="panel-collapse collapse FAQ-body">
+											<div class="panel-body text-center">
+												<?php perch_content('Activity Content Column-3 Row-1'); ?></div>
+											</div>
+										</div>
+										<div class="panel">
+											<div class="panel-heading btn-yellow">
+												<?php perch_content('Activity Title Column-3 Row-2'); ?>
+											</div>
+											<div id="collapse23" class="panel-collapse collapse FAQ-body">
+												<div class="panel-body text-center">
+													<?php perch_content('Activity Content Column-3 Row-2'); ?>
+												</div>
+											</div>
+										</div>
+
+										<div class="panel">
+											<div class="panel-heading btn-yellow">
+												<?php perch_content('Activity Title Column-3 Row-3'); ?>
+											</div>
+											<div id="collapse24" class="panel-collapse collapse FAQ-body">
+												<div class="panel-body text-center">
+													<?php perch_content('Activity Content Column-3 Row-3'); ?>
+												</div>
+											</div>
+										</div>
+
+
+									</div>
+
 
 
 
@@ -663,7 +787,7 @@
 
 
 							<div class="img-service-box">
-								<h4 style="margin-top: -15px;">To view are sermons click the button below!</h4>
+								<h4 style="margin-top: -15px;">To view our sermons click the button below!</h4>
 								<a href="sermons.php">
 								<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay">View Sermons <i class="fa fa-angle-right"></i></button>
 								</a>
