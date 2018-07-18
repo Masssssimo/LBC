@@ -817,7 +817,7 @@
 
 
 							<div class="img-service-box">
-								<h4 style="margin-top: -15px;">Click here to access previous meeting minutes</h4>
+								<h4 style="margin-top: -15px;">Previous meeting minutes</h4>
 								<a href="img/wallpapers/1.jpg" target="_blank">
 								<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay">Google link<i class="fa fa-angle-right"></i></button>
 								</a>
