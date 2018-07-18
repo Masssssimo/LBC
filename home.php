@@ -638,7 +638,7 @@
 			</section>
 
 			<section id="regulars-area" class="section-events">
-				<div class="container">
+				<div class="container" style="margin-bottom: -80px;">
 					<div class="row">
 						<div class="col-sm-6 col-sm-offset-3 center-title text-center">
 							<h3>Regulars Area</h3>
@@ -779,8 +779,8 @@
 
 
 
-					<div class="row" style="margin-bottom: -55px;">
-						<div class="col-sm-6 col-sm-offset-3 center-title text-center activity-title">
+					<div class="row" style="margin-bottom: -100px;">
+						<div class="col-sm-3 col-sm-offset-3 center-title text-center activity-title">
 							<br><br>
 							<h3 style="margin-bottom: -15px;">Sermons</h3>
 							<span class="center-line"></span>
@@ -790,6 +790,21 @@
 								<h4 style="margin-top: -15px;">To view our sermons click the button below!</h4>
 								<a href="sermons.php">
 								<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay">View Sermons <i class="fa fa-angle-right"></i></button>
+								</a>
+							</div>
+
+						</div>
+						
+						<div class="col-sm-3 center-title text-center activity-title">
+							<br><br>
+							<h3 style="margin-bottom: -15px;">Newsheets</h3>
+							<span class="center-line"></span>
+
+
+							<div class="img-service-box">
+								<h4 style="margin-top: -15px;">Click the link to view our newsheets</h4>
+								<a href="img/wallpapers/1.jpg" download>
+								<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay">Download latest newsheet<i class="fa fa-angle-right"></i></button>
 								</a>
 							</div>
 
