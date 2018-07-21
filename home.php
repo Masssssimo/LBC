@@ -638,7 +638,7 @@
 			</section>
 
 			<section id="regulars-area" class="section-events">
-				<div class="container">
+				<div class="container" style="margin-bottom: -80px;">
 					<div class="row">
 						<div class="col-sm-6 col-sm-offset-3 center-title text-center">
 							<h3>Regulars Area</h3>
@@ -652,20 +652,174 @@
 
 
 					<div id='calendar'></div>
-
-
-
+					
 					<div class="row" style="margin-bottom: -55px;">
-						<div class="col-sm-6 col-sm-offset-3 center-title text-center activity-title">
+							<div class="col-sm-6 col-sm-offset-3 center-title text-center activity-title">
+								<br><br>
+								<h3 style="margin-bottom: -15px;">Information</h3>
+								<span class="center-line"></span>
+								<p class="contact-us">Click on a yellow tab to see more information<p>
+								</div>
+						</div>
+
+							<div class="panel-group col-sm-4 Tab" id="accardion1">
+								<div class="panel">
+									<div class="panel-heading btn-yellow">
+										<?php perch_content('Activity Title Column-1 Row-1'); ?>
+									</div>
+									<div id="collapse16" class="panel-collapse collapse FAQ-body">
+										<div class="panel-body text-center">
+											<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse16">
+												<?php perch_content('Activity Content Column-1 Row-1'); ?>
+											</h4>
+										</div>
+									</div>
+								</div>
+								<div class="panel">
+									<div class="panel-heading btn-yellow">
+										<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse17">
+											<?php perch_content('Activity Title Column-1 Row-2'); ?>
+										</h4>
+
+									</div>
+									<div id="collapse17" class="panel-collapse collapse FAQ-body">
+										<div class="panel-body text-center">
+											<?php perch_content('Activity Content Column-1 Row-2'); ?>
+										</div>
+									</div>
+								</div>
+
+								<div class="panel">
+									<div class="panel-heading btn-yellow">
+										<?php perch_content('Activity Title Column-1 Row-3'); ?>
+									</div>
+									<div id="collapse18" class="panel-collapse collapse FAQ-body">
+										<div class="panel-body text-center">
+											<?php perch_content('Activity Content Column-1 Row-3'); ?>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="panel-group col-sm-4 Tab" id="accardion2">
+
+								<div class="panel">
+									<div class="panel-heading btn-yellow">
+										<?php perch_content('Activity Title Column-2 Row-1'); ?>
+									</div>
+									<div id="collapse19" class="panel-collapse collapse FAQ-body">
+										<div class="panel-body text-center">
+											<?php perch_content('Activity Content Column-2 Row-1'); ?>
+										</div>
+									</div>
+								</div>
+
+								<div class="panel">
+									<div class="panel-heading btn-yellow">
+										<?php perch_content('Activity Title Column-2 Row-2'); ?>
+									</div>
+									<div id="collapse20" class="panel-collapse collapse FAQ-body">
+										<div class="panel-body text-center">
+											<?php perch_content('Activity Content Column-2 Row-2'); ?>
+										</div>
+									</div>
+								</div>
+
+								<div class="panel">
+									<div class="panel-heading btn-yellow">
+										<?php perch_content('Activity Title Column-2 Row-3'); ?>
+
+									</div>
+									<div id="collapse21" class="panel-collapse collapse FAQ-body">
+										<div class="panel-body text-center">
+											<?php perch_content('Activity Content Column-2 Row-3'); ?></div>
+										</div>
+									</div>
+
+
+								</div>
+
+								<div class="panel-group col-sm-4 Tab" id="accardion3">
+									<div class="panel">
+										<div class="panel-heading btn-yellow">
+											<?php perch_content('Activity Title Column-3 Row-1'); ?>
+
+										</div>
+										<div id="collapse22" class="panel-collapse collapse FAQ-body">
+											<div class="panel-body text-center">
+												<?php perch_content('Activity Content Column-3 Row-1'); ?></div>
+											</div>
+										</div>
+										<div class="panel">
+											<div class="panel-heading btn-yellow">
+												<?php perch_content('Activity Title Column-3 Row-2'); ?>
+											</div>
+											<div id="collapse23" class="panel-collapse collapse FAQ-body">
+												<div class="panel-body text-center">
+													<?php perch_content('Activity Content Column-3 Row-2'); ?>
+												</div>
+											</div>
+										</div>
+
+										<div class="panel">
+											<div class="panel-heading btn-yellow">
+												<?php perch_content('Activity Title Column-3 Row-3'); ?>
+											</div>
+											<div id="collapse24" class="panel-collapse collapse FAQ-body">
+												<div class="panel-body text-center">
+													<?php perch_content('Activity Content Column-3 Row-3'); ?>
+												</div>
+											</div>
+										</div>
+
+
+									</div>
+
+
+
+
+					<div class="row" style="margin-bottom: -100px;">
+						<div class="col-sm-4  center-title text-center activity-title">
 							<br><br>
 							<h3 style="margin-bottom: -15px;">Sermons</h3>
 							<span class="center-line"></span>
 
 
 							<div class="img-service-box">
-								<h4 style="margin-top: -15px;">To view are sermons click the button below!</h4>
+								<h4 style="margin-top: -15px;">To view our sermons click the button below!</h4>
 								<a href="sermons.php">
 								<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay">View Sermons <i class="fa fa-angle-right"></i></button>
+								</a>
+							</div>
+
+						</div>
+						
+						<div class="col-sm-4 center-title text-center activity-title">
+							<br><br>
+							<h3 style="margin-bottom: -15px;">Newsheets</h3>
+							<span class="center-line"></span>
+
+
+							<div class="img-service-box">
+								<h4 style="margin-top: -15px;">Click the link to view our newsheets</h4>
+								<a href="img/wallpapers/1.jpg" download>
+								<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay">Download latest newsheet<i class="fa fa-angle-right"></i></button>
+								</a>
+							</div>
+
+						</div>
+						
+						<div class="col-sm-4 center-title text-center activity-title">
+							<br><br>
+							<h3 style="margin-bottom: -15px;">Meetings</h3>
+							<span class="center-line"></span>
+
+
+							<div class="img-service-box">
+								<h4 style="margin-top: -15px;">Previous meeting minutes</h4>
+								<a href="img/wallpapers/1.jpg" target="_blank">
+								<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay">Google link<i class="fa fa-angle-right"></i></button>
 								</a>
 							</div>
 
