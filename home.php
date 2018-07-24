@@ -68,7 +68,7 @@
 					<li><a href="#events">Events</a>
 					</li>
 
-					<li><a href="#regulars-area">Regular's Area</a>
+					<li><a href="#regulars-area">Information</a>
 					</li>
 
 					<li><a href="#about-us">About Us</a>
@@ -638,34 +638,27 @@
 			</section>
 
 			<section id="regulars-area" class="section-events">
-				<div class="container" style="margin-bottom: -80px;">
-					<div class="row">
+				<div class="container" style="margin-bottom: -80px; margin-top: -40px;">
+					<div class="row" style="margin-bottom: -50px;">
 						<div class="col-sm-6 col-sm-offset-3 center-title text-center">
-							<h3>Regulars Area</h3>
+							<h3>Information</h3>
 							<span class="center-line"></span>
-
-							<p class="contact-us">Below are all the events that are scheduled for this month.<br>Click on an event to take you to our google calendar,<br>there you can find out more details.</p>
+							<p class="contact-us">Click on a yellow tab to see more information<p>
 
 						</div>
 					</div>
 
 
 
-					<div id='calendar'></div>
 					
-					<div class="row" style="margin-bottom: -55px;">
-							<div class="col-sm-6 col-sm-offset-3 center-title text-center activity-title">
-								<br><br>
-								<h3 style="margin-bottom: -15px;">Information</h3>
-								<span class="center-line"></span>
-								<p class="contact-us">Click on a yellow tab to see more information<p>
-								</div>
-						</div>
+					
+				
 
 							<div class="panel-group col-sm-4 Tab" id="accardion1">
 								<div class="panel">
 									<div class="panel-heading btn-yellow">
-										<?php perch_content('Activity Title Column-1 Row-1'); ?>
+										<?php perch_content('Activity Title Column-1 Row-1'); ?>								
+										
 									</div>
 									<div id="collapse16" class="panel-collapse collapse FAQ-body">
 										<div class="panel-body text-center">
@@ -780,14 +773,14 @@
 
 
 					<div class="row" style="margin-bottom: -100px;">
-						<div class="col-sm-4  center-title text-center activity-title">
+						<div class="col-sm-3  center-title text-center activity-title">
 							<br><br>
 							<h3 style="margin-bottom: -15px;">Sermons</h3>
 							<span class="center-line"></span>
 
 
 							<div class="img-service-box">
-								<h4 style="margin-top: -15px;">To view our sermons click the button below!</h4>
+								<h4 style="margin-top: -15px;"></h4>
 								<a href="sermons.php">
 								<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay">View Sermons <i class="fa fa-angle-right"></i></button>
 								</a>
@@ -795,14 +788,14 @@
 
 						</div>
 						
-						<div class="col-sm-4 center-title text-center activity-title">
+						<div class="col-sm-3 center-title text-center activity-title">
 							<br><br>
 							<h3 style="margin-bottom: -15px;">Newsheets</h3>
 							<span class="center-line"></span>
 
 
 							<div class="img-service-box">
-								<h4 style="margin-top: -15px;">Click the link to view our newsheets</h4>
+								<h4 style="margin-top: -15px;"></h4>
 								<a href="img/wallpapers/1.jpg" download>
 								<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay">Download latest newsheet<i class="fa fa-angle-right"></i></button>
 								</a>
@@ -810,23 +803,38 @@
 
 						</div>
 						
-						<div class="col-sm-4 center-title text-center activity-title">
+						<div class="col-sm-3 center-title text-center activity-title">
 							<br><br>
-							<h3 style="margin-bottom: -15px;">Meetings</h3>
+							<h3 style="margin-bottom: -15px;">ChurchSuite</h3>
 							<span class="center-line"></span>
 
 
 							<div class="img-service-box">
-								<h4 style="margin-top: -15px;">Previous meeting minutes</h4>
+								<h4 style="margin-top: -15px;"></h4>
 								<a href="img/wallpapers/1.jpg" target="_blank">
-								<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay">Google link<i class="fa fa-angle-right"></i></button>
+								<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay">Go to ChurchSuite<i class="fa fa-angle-right"></i></button>
+								</a>
+							</div>
+
+						</div>
+						
+						<div class="col-sm-3 center-title text-center activity-title">
+							<br><br>
+							<h3 style="margin-bottom: -15px;">Calendar</h3>
+							<span class="center-line"></span>
+
+
+							<div class="img-service-box">
+								<h4 style="margin-top: -15px;"></h4>
+								<a href="calendar.php" target="_blank">
+								<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay">View Calendar<i class="fa fa-angle-right"></i></button>
 								</a>
 							</div>
 
 						</div>
 					</div>
 
-
+				</div>
 					<!--section title-->
 
 				</section>
