@@ -51,7 +51,7 @@
           <span class="icon-bar"></span>
         </button>
 
-        <a class="navbar-brand" href="#">LBC</a>
+        <a class="navbar-brand" href="home.php">LBC</a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav scroll-to navbar-right">
