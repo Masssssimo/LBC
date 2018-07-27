@@ -8,7 +8,10 @@
 @import url(http://fonts.googleapis.com/css?family=Great+Vibes);
 /**base**/
 html, body {
-  height: 100%; }
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;}
 
 body {
   font-family: "Cabin", sans-serif;
@@ -385,10 +388,17 @@ Restaurant menu style
   -ms-border-radius: 0px;
   border-radius: 0px; }
 
+/** Informatiom**/
+.section-info {
+  padding-top: 80px;
+  margin-bottom: 50px;
+  background-color: #fff; }
+
+
 /**events**/
 .section-events {
   padding-top: 80px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   background-color: #fff; }
 
 .event-thumb {
@@ -455,6 +465,7 @@ Restaurant menu style
   padding-top: 80px;
   padding-bottom: 50px; }
   .our-chefs .center-title h3 {
+    border-top:-5px;
     color: #fff; }
   .our-chefs .center-line {
     background-color: rgba(255, 255, 255, 0.5); }
@@ -812,6 +823,15 @@ By ADAMSCHWARTZ
     line-height: 14px;
     text-align: center;
   }
+  .resizeInfo{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+    line-height: 25px;
+    font-family: "Raleway", sans-serif;
+  }
 }
 
 @media screen and (max-width: 600px) and (min-width:414px) {
@@ -821,6 +841,15 @@ By ADAMSCHWARTZ
     line-height: 16px;
     text-align: center;
   }
+  .resizeInfo{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+    line-height: 25px;
+    font-family: "Raleway", sans-serif;
+  }
 }
 
 @media screen and (max-width: 768px) and (min-width: 601px) {
@@ -829,6 +858,15 @@ By ADAMSCHWARTZ
     font-size: 16px;
     line-height: 18px;
     text-align: center;
+  }
+  .resizeInfo{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+    line-height: 25px;
+    font-family: "Raleway", sans-serif;
   }
 }
 
@@ -842,6 +880,15 @@ By ADAMSCHWARTZ
     font-family: "Raleway", sans-serif;
     font-size: 11px;
   }
+  .resizeInfo{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+    line-height: 5px;
+    font-family: "Raleway", sans-serif;
+  }
 }
 @media screen and (max-width: 1200px) and (min-width: 1001px) {
   .contact-us{
@@ -852,6 +899,15 @@ By ADAMSCHWARTZ
   .FAQ-title{
     font-family: "Raleway", sans-serif;
     font-size: 12px;
+  }
+  .resizeInfo{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+    line-height: 25px;
+    font-family: "Raleway", sans-serif;
   }
 }
 @media screen and (min-width: 1201px) {
@@ -864,7 +920,16 @@ By ADAMSCHWARTZ
     font-family: "Raleway", sans-serif;
     font-size: 14px;
   }
+  .resizeInfo{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0px;
+    font-size: 35px;
+    line-height: 35px;
+    font-family: "Raleway", sans-serif;
+  }
 }
+
 
 /* Aligning titles */
 .question-below{
@@ -992,31 +1057,7 @@ By ADAMSCHWARTZ
     margin-bottom: 30px; }
 
 
-/*Table CSS*/
 
-.border-table {
-	border: 1px solid #FFFFFF;
-}
-
-.table {
-
-	text-align: center;
-
-	border: 1px solid #FFFFFF;
-
-
-
-}
-.table-headings {
-	background: #161616;
-	color: white;
-	text-align: center;
-	border: 1px solid #FFFFFF;
-	font-size: 20px;
-
-	vertical-align: middle;
-
-}
 
 .event-calender {
 	background: #F2B84B;
