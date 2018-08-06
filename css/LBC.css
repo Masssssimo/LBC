@@ -391,7 +391,7 @@ Restaurant menu style
 /** Informatiom**/
 .section-info {
   padding-top: 80px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   background-color: #fff; }
 
 
@@ -828,8 +828,8 @@ By ADAMSCHWARTZ
     font-weight: 700;
     margin: 0px;
     padding: 0px;
-    font-size: 22px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 16px;
     font-family: "Raleway", sans-serif;
   }
 }
@@ -846,8 +846,8 @@ By ADAMSCHWARTZ
     font-weight: 700;
     margin: 0px;
     padding: 0px;
-    font-size: 22px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 16px;
     font-family: "Raleway", sans-serif;
   }
 }
@@ -864,8 +864,8 @@ By ADAMSCHWARTZ
     font-weight: 700;
     margin: 0px;
     padding: 0px;
-    font-size: 22px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 16px;
     font-family: "Raleway", sans-serif;
   }
 }
@@ -885,8 +885,8 @@ By ADAMSCHWARTZ
     font-weight: 700;
     margin: 0px;
     padding: 0px;
-    font-size: 22px;
-    line-height: 5px;
+    font-size: 16px;
+    line-height: 16px;
     font-family: "Raleway", sans-serif;
   }
 }
@@ -905,8 +905,8 @@ By ADAMSCHWARTZ
     font-weight: 700;
     margin: 0px;
     padding: 0px;
-    font-size: 22px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 16px;
     font-family: "Raleway", sans-serif;
   }
 }
@@ -924,9 +924,20 @@ By ADAMSCHWARTZ
     text-transform: uppercase;
     font-weight: 700;
     margin: 0px;
-    font-size: 35px;
+    font-size: 22px;
     line-height: 35px;
     font-family: "Raleway", sans-serif;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .spaceOutInfo{
+    padding-top: 20px;
+    margin-bottom: -10px;
+  }
+  .info-title{
+    margin-bottom: 0px;
+    margin-top: -40px;
   }
 }
 
