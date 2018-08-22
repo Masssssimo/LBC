@@ -653,7 +653,7 @@
 								<span class="center-line"></span>
 
 								<div>
-									<a href="sermons.php">
+									<a href="sermons.php" target="_blank">
 										<button type="button" class="btn btn-yellow btn-sm wow fadeInUp delay">View Sermons<i class="fa fa-angle-right"></i></button>
 									</a>
 								</div>
