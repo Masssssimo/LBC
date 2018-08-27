@@ -1,0 +1,29 @@
+<div class="img-service-box">
+					<img class="wow fadeInUp delay1" src="<perch:content id="image" type="image"  />" width="200" height="200" class="img-circle " alt="">
+					<span class="center-line wow fadeInUp delay2"></span>
+					<h3 class="wow fadeInUp delay3"><perch:content id="heading" type="smarttext" label="Title For Item 4" required="true"/></h3>
+					<p>
+						<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay4" data-toggle="modal" data-target="#Dis">View Details <i class="fa fa-angle-right"></i></button>
+					</p>
+				</div>
+				<!-- Modal -->
+				<div class="modal fade" id="Dis" role="dialog">
+					<div class="modal-dialog">
+
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close glyphicon" data-dismiss="modal">&times;</button>
+								<h3 class="modal-title"><perch:content id="headingPopUp" type="smarttext" label="Title For Item 4 PopUp" required="true"/></h3>
+							</div>
+							<div class="modal-body">
+								<p>
+<perch:content id="body" type="textarea" label="Information about Item 4" required="true" markdown="true" editor="simplemde"/>								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+
+					</div>
+				</div>

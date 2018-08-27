@@ -89,30 +89,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-8 col-sm-offset-2 text-center">
-
-						<h3>Welcome to the</h3>
-						<h3>Loughton Baptist Church</h3>
-						<!--
-						<div class="flexslider intro-slider">
-						<ul class="slides">
-						<li>
-						Hope
-					</li>
-
-					<li>
-					Community
-				</li>
-
-				<li>
-				Salvation
-			</li>
-
-		</ul>
-	</div>
--->
-<!--flex slider-->
-
-</div>
+					<h3>Welcome To</h3>
+				    <h3>Loughton Baptist Church</h3>
+					
+					</div>
 </div>
 </div>
 </div>
@@ -124,152 +104,29 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 col-sm-offset-3 center-title text-center wow fadeInUp">
-				<h3>Alpha</h3>
-				<span class="center-line"></span>
-				<h4>Everyone Has Questions?</h4>
-				<p>
-					Exploring is good.<br> We're built for it.<br> Explore more about life, faith and meaning with Alpha.
-				</p>
+				<?php perch_content('S2 - Top Bit'); ?>
 			</div>
 		</div>
 		<!--section title-->
 		<div class="row">
 			<div class="col-md-3 col-sm-6 text-center">
-				<div class="img-service-box">
-
-					<img  class="wow fadeInUp delay1"src="img/resto/alpha-logo.png" width="200" height="200" class="img-circle " alt="">
-					<span class="center-line wow fadeInUp delay2"></span>
-					<h3 class="wow fadeInUp delay3">What is Alpha?</h3>
-					<p>
-						<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay4" data-toggle="modal" data-target="#whatIsAlpha">View Details <i class="fa fa-angle-right"></i></button>
-					</p>
-				</div>
-				<!-- Modal -->
-				<div class="modal fade" id="whatIsAlpha" role="dialog">
-					<div class="modal-dialog">
-
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close glyphicon" data-dismiss="modal">&times;</button>
-								<h3 class="modal-title">What is Alpha?</h3>
-							</div>
-							<div class="modal-body">
-								<p>
-									Alpha is a series of sessions exploring the Christian faith, typically run over eleven weeks. Each talk looks at a different question around faith and is designed to create conversation.<br><br>Alpha is run all around the globe, and everyone is welcome.<br><br>No two Alphas look the same, but generally they have three key things in common:<br>Food, a talk and good conversation.
-								</p>
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-
-					</div>
-				</div>
+				<?php perch_content('S2 - item 1'); ?>
+			</div>
+			<!--img-service box-->
+			<div class="col-md-3 col-sm-6 text-center">
+				<?php perch_content('S2 - item 2'); ?>
 
 			</div>
 			<!--img-service box-->
 			<div class="col-md-3 col-sm-6 text-center">
-				<div class="img-service-box">
-					<img class="wow fadeInUp delay1" src="img/resto/talks1.png" width="200" height="200" class="img-circle " alt="">
-					<span class="center-line wow fadeInUp delay2"></span>
-					<h3 class="wow fadeInUp delay3">Talks</h3>
-					<p>
-						<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay4" data-toggle="modal" data-target="#talks">View Details <i class="fa fa-angle-right"></i></button>
-					</p>
-				</div>
-
-				<!-- Modal -->
-				<div class="modal fade" id="talks" role="dialog">
-					<div class="modal-dialog">
-
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close glyphicon" data-dismiss="modal">&times;</button>
-								<h3 class="modal-title">Talks</h3>
-							</div>
-							<div class="modal-body">
-								<p>
-									The talks are designed to engage and inspire conversation.<br><br>Usually around thirty minutes long and delivered over about eleven weeks, they can be given as a live talk or played as a video.<br><br>They explore the big issues around faith and unpack the basics of Christianity, addressing questions such as:<br><b>Who is Jesus?<br>How can we have faith?<br>Why and how do I pray?<br>How does God guide us?</b>
-								</p>
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-
-					</div>
-				</div>
+				
+				<?php perch_content('S2 - item 3'); ?>
+				
 
 			</div>
 			<!--img-service box-->
 			<div class="col-md-3 col-sm-6 text-center">
-				<div class="img-service-box">
-					<img class="wow fadeInUp delay1" src="img/resto/food.png" width="200" height="200" class="img-circle " alt="">
-					<span class="center-line wow fadeInUp delay2"></span>
-					<h3 class="wow fadeInUp delay3">Food</h3>
-					<p>
-						<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay4" data-toggle="modal" data-target="#food">View Details <i class="fa fa-angle-right"></i></button>
-					</p>
-				</div>
-
-				<!-- Modal -->
-				<div class="modal fade" id="food" role="dialog">
-					<div class="modal-dialog">
-
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close glyphicon" data-dismiss="modal">&times;</button>
-								<h3 class="modal-title">Food</h3>
-							</div>
-							<div class="modal-body">
-								<p>
-									Whether it's a group of friends gathered around a kitchen table, or a quick catch up over coffee and cake, food has a way of bringing people together.<br><br>It's no different at Alpha.<br><br>Most sessions start with food, because it's a great way to build community and get to know each other.
-								</p>
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-			</div>
-			<!--img-service box-->
-			<div class="col-md-3 col-sm-6 text-center">
-				<div class="img-service-box">
-					<img class="wow fadeInUp delay1" src="img/resto/discussion.png" width="200" height="200" class="img-circle " alt="">
-					<span class="center-line wow fadeInUp delay2"></span>
-					<h3 class="wow fadeInUp delay3">Discussions</h3>
-					<p>
-						<button type="button" class="btn btn-yellow btn-md wow fadeInUp delay4" data-toggle="modal" data-target="#Dis">View Details <i class="fa fa-angle-right"></i></button>
-					</p>
-				</div>
-				<!-- Modal -->
-				<div class="modal fade" id="Dis" role="dialog">
-					<div class="modal-dialog">
-
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close glyphicon" data-dismiss="modal">&times;</button>
-								<h3 class="modal-title">Discussions</h3>
-							</div>
-							<div class="modal-body">
-								<p>
-									Probably the most important part of any Alpha:<br><br>The chance to share thoughts and ideas on the topic, and simply discuss it in a small group. <br><br>There's no obligation to say anything and there's nothing you can't say (seriously). <br><br>It's an opportunity to hear from others and contribute your own perspective in an honest, friendly and open environment.
-								</p>
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-
-					</div>
-				</div>
+				<?php perch_content('S2 - item 4'); ?>
 
 			</div>
 			<!--img-service box-->
@@ -283,23 +140,16 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 col-sm-offset-3 center-title text-center wow fadeIn">
-				<h3>Every Sunday</h3>
-				<span class="center-line"></span>
+				<?php perch_content('S3 - Heading'); ?>
 			</div>
 		</div>
 		<!--section title-->
 		<div class="row">
 			<div class="col-sm-5 col-sm-offset-1 wow fadeInUp">
-				<div class="opening-hours-box">
-					<h1>Armour of God</h1>
-					<h3>09:30 AM & 11:15 AM</h3>
-				</div>
+				<?php perch_content('S3 - Box 1'); ?>
 			</div>
 			<div class="col-sm-5 wow fadeInUp">
-				<div class="opening-hours-box">
-					<h1>Study of Acts</h1>
-					<h3>06:00 PM</h3>
-				</div>
+				<?php perch_content('S3 - Box 2'); ?>
 			</div>
 		</div>
 	</div>
@@ -310,50 +160,18 @@
 	<div class="container">
 		<div class="row wow fadeIn delay1">
 			<div class="col-sm-6 col-sm-offset-3 center-title text-center question-below">
-				<h3>New to LBC?</h3>
-				<span class="center-line"></span>
-				<h3>Here's what to expect!</h3>
-				<p class="contact-us"><br>Click on the question below to see the answer!<p>
+				<?php perch_content('S4 - Top'); ?>
 				</div>
 			</div>
 			<div class="panel-group col-sm-4 Tab wow fadeIn delay2" id="accordion1">
 				<div class="panel">
-					<div class="panel-heading btn-yellow">
-						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse1">
-							<a class="FAQ-title">Is church only for good people?</a>
-						</h4>
-					</div>
-					<div id="collapse1" class="panel-collapse collapse FAQ-body">
-						<div class="panel-body text-center">
-							<p>No, the church is for everyone! Regardless of your background, culture, age and history, you are welcomed and accepted here.</p>
-						</div>
-					</div>
+					<?php perch_content('S4 - Collapse 1'); ?>
 				</div>
 				<div class="panel">
-					<div class="panel-heading btn-yellow">
-						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse2">
-							<a class="FAQ-title">What happens at services?</a>
-						</h4>
-
-					</div>
-					<div id="collapse2" class="panel-collapse collapse FAQ-body">
-						<div class="panel-body text-center">
-							<p>You will be welcomed at the door by one of our ushers. Sit anywhere you like in the gathering room. There will be singing, prayers, and a sharing by a pastor who talks about how the Bible can bring hope and change in our daily lives.<br>Children and youth go to their own groups in the middle of service. <br>Services usually last an hour and a half. <br>Free coffee and tea are available in between services at the foyer.</p>
-						</div>
-					</div>
+					<?php perch_content('S4 - Collapse 2'); ?>
 				</div>
 				<div class="panel">
-					<div class="panel-heading btn-yellow">
-						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse3">
-							<a class="FAQ-title">Is anything expected of me?</a>
-						</h4>
-
-					</div>
-					<div id="collapse3" class="panel-collapse collapse FAQ-body">
-						<div class="panel-body text-center">
-							<p>Feel free to join in the singing of the songs (words are projected on the screen) but you can just enjoy listening to the songs.<br>We also stand during this time, though you may sit if that is more comfortable with you.<br>You do not have to bring a Bible as the passages will be shown on the screen.<br>After the service, there are prayer opportunities if you would like to be prayed for.</p>
-						</div>
-					</div>
+					<?php perch_content('S4 - Collapse 3'); ?>
 				</div>
 
 			</div>
@@ -361,91 +179,26 @@
 			<div class="panel-group col-sm-4 Tab wow fadeIn delay2" id="accordion2">
 
 				<div class="panel">
-					<div class="panel-heading btn-yellow">
-						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse4">
-							<a class="FAQ-title">What should I wear?</a>
-						</h4>
-
-					</div>
-					<div id="collapse4" class="panel-collapse collapse FAQ-body">
-						<div class="panel-body text-center">
-							<p>Dress in whatever makes you feel comfortable! Some of us dress casually, and others prefer to wear their “Sunday best.”</p>
-						</div>
-					</div>
+					<?php perch_content('S4 - Collapse 4'); ?>
 				</div>
 				<div class="panel">
-					<div class="panel-heading btn-yellow">
-						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse5">
-							<a class="FAQ-title">Do I have to give money?</a>
-						</h4>
-
-					</div>
-					<div id="collapse5" class="panel-collapse collapse FAQ-body">
-						<div class="panel-body text-center">
-							<p><b>Not at all!</b><br>The services, children and youth programmes and refreshments are free.<br>Our church building, staff and community work are funded by contributions, so we have a collection at every service.<br>It is normal to let the bag pass without putting anything inside. There is no expectation to give a contribution.</p>
-						</div>
-					</div>
+					<?php perch_content('S4 - Collapse 5'); ?>
 				</div>
 				<div class="panel">
-					<div class="panel-heading btn-yellow">
-						<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse6">
-							<a class="FAQ-title">Is church serious or social?</a>
-						</h4>
-
-					</div>
-					<div id="collapse6" class="panel-collapse collapse FAQ-body">
-						<div class="panel-body text-center">
-							<p>Church life is a wonderful mix of <b>both!</b><br>We are serious about Jesus and how we live out His teachings in our lives.<br>At the same time, we also enjoy fun, social activities together and have many planned in our church calendar. <br>Check them out here!.
-
-								<div class="col-sm-12 text-center scroll-to">
-									<a class="btn btn-md btn-yellow" href="#events" target="_blank">Events</a>
-								</div>
-
-							</div>
-						</div>
-					</div>
+					<?php perch_content('S4 - Collapse 6'); ?>
+				</div>
 
 				</div>
 
 				<div class="panel-group col-sm-4 Tab wow fadeIn delay2" id="accordion3">
 					<div class="panel">
-						<div class="panel-heading btn-yellow">
-							<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse7">
-								<a class="FAQ-title">Will someone tell me what to believe?</a>
-							</h4>
-
-						</div>
-						<div id="collapse7" class="panel-collapse collapse FAQ-body">
-							<div class="panel-body text-center">
-								<p>During the service, someone does give a talk at the front and it is a sharing of how God was, is and continues to be relevant in today’s world.<br>The talk includes stories, pictures, testimonies and even jokes! And none of it is meant to intimidate or condemn anyone into believing anything.<br>The message of Jesus is not an order or command of fear, it is instead a gentle invitation to love and hope.</p>
-							</div>
-						</div>
+						<?php perch_content('S4 - Collapse 7'); ?>
 					</div>
 					<div class="panel">
-						<div class="panel-heading btn-yellow">
-							<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse8">
-								<a class="FAQ-title">What if I have questions during the service?</a>
-							</h4>
-
-						</div>
-						<div id="collapse8" class="panel-collapse collapse FAQ-body">
-							<div class="panel-body text-center">
-								<p>Feel free to grab one of our pastors or ministry staff after the service and they will be happy to talk with you.</p>
-							</div>
-						</div>
+						<?php perch_content('S4 - Collapse 8'); ?>
 					</div>
 					<div class="panel">
-						<div class="panel-heading btn-yellow">
-							<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" href="#collapse9">
-								<a class="FAQ-title">Where can I park?</a>
-							</h4>
-
-						</div>
-						<div id="collapse9" class="panel-collapse collapse FAQ-body">
-							<div class="panel-body text-center">
-								<p>We have a car park directly outside the church. When this is filled, please park responsibly along the surrounding streets.<br>The parking spaces right in front of the church are reserved for those who have difficulty with mobility. </p>
-							</div>
-						</div>
+						<?php perch_content('S4 - Collapse 9'); ?>
 					</div>
 				</div>
 			</div>
@@ -457,8 +210,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-center">
-					<h2>Visit us!</h2>
-					<a class="btn btn-lg btn-yellow" href="https://goo.gl/maps/6sTLmCCVxnw" target="_blank">Directions</a>
+					<?php perch_content('S5 - Header and Link'); ?>
 				</div>
 			</div>
 		</div>
@@ -469,52 +221,30 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3 center-title text-center wow fadeIn delay1">
-					<h3>House Groups</h3>
-					<span class="center-line"></span>
-					<p class="contact-us">We are made up of a variety of nationalities, backgrounds, ages and in all areas of Milton Keynes.<br>Very interactive group, we start the Bible over tea and coffee.<br>We look forward to having you with us.</p>
+					<?php perch_content('S6 - Header'); ?>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="col-sm-12 wow fadeIn delay2">
 					<div class="owl-carousel owl-theme">
-						<?php perch_content('Slider'); ?>
+						<?php perch_content('S6 - Slider (House Groups)'); ?>
 					</div>
 				</div>
 			</div>
 
 			<div class="row" style="margin-bottom: -55px;">
 				<div class="col-sm-6 col-sm-offset-3 center-title text-center activity-title wow fadeIn delay2">
-					<br><br>
-					<h3 style="margin-bottom: -15px;">Activities Below!</h3>
-					<span class="center-line"></span>
-					<p class="contact-us">Click on the activity below to see what it's all about!<p>
+					<?php perch_content('S6 - 2nd Header'); ?>
 					</div>
 				</div>
 
 				<div class="panel-group col-sm-4 Tab wow fadeIn delay2" id="accardion1">
 					<div class="panel">
-						<div class="panel-heading btn-yellow">
-							<?php perch_content('Activity Title Column-1 Row-1'); ?>
-						</div>
-						<div id="collapse10" class="panel-collapse collapse FAQ-body">
-							<div class="panel-body text-center">
-								<?php perch_content('Activity Content Column-1 Row-1'); ?>
-							</div>
-						</div>
+						<?php perch_content('S6 - Collapse 1'); ?>
 					</div>
 					<div class="panel">
-						<div class="panel-heading btn-yellow">
-							<h4 class="panel-title text-center" data-toggle="collapse" data-parent="#accardion1,#accardion2,#accardion3" href="#collapse11">
-								<?php perch_content('Activity Title Column-1 Row-2'); ?>
-							</h4>
-
-						</div>
-						<div id="collapse11" class="panel-collapse collapse FAQ-body">
-							<div class="panel-body text-center">
-								<?php perch_content('Activity Content Column-1 Row-2'); ?>
-							</div>
-						</div>
+						<?php perch_content('S6 - Collapse 2'); ?>
 					</div>
 
 				</div>
@@ -522,25 +252,11 @@
 				<div class="panel-group col-sm-4 Tab wow fadeIn delay2" id="accardion2">
 
 					<div class="panel">
-						<div class="panel-heading btn-yellow">
-							<?php perch_content('Activity Title Column-2 Row-1'); ?>
-						</div>
-						<div id="collapse12" class="panel-collapse collapse FAQ-body">
-							<div class="panel-body text-center">
-								<?php perch_content('Activity Content Column-2 Row-1'); ?>
-							</div>
-						</div>
+						<?php perch_content('S6 - Collapse 3'); ?>
 					</div>
 
 					<div class="panel">
-						<div class="panel-heading btn-yellow">
-							<?php perch_content('Activity Title Column-2 Row-2'); ?>
-						</div>
-						<div id="collapse13" class="panel-collapse collapse FAQ-body">
-							<div class="panel-body text-center">
-								<?php perch_content('Activity Content Column-2 Row-2'); ?>
-							</div>
-						</div>
+						<?php perch_content('S6 - Collapse 4'); ?>
 					</div>
 
 
@@ -548,24 +264,10 @@
 
 				<div class="panel-group col-sm-4 Tab wow fadeIn delay2" id="accardion3">
 					<div class="panel">
-						<div class="panel-heading btn-yellow">
-							<?php perch_content('Activity Title Column-3 Row-1'); ?>
-
-						</div>
-						<div id="collapse14" class="panel-collapse collapse FAQ-body">
-							<div class="panel-body text-center">
-								<?php perch_content('Activity Content Column-3 Row-1'); ?></div>
-							</div>
+						<?php perch_content('S6 - Collapse 5'); ?>
 						</div>
 						<div class="panel">
-							<div class="panel-heading btn-yellow">
-								<?php perch_content('Activity Title Column-3 Row-2'); ?>
-							</div>
-							<div id="collapse15" class="panel-collapse collapse FAQ-body">
-								<div class="panel-body text-center">
-									<?php perch_content('Activity Content Column-3 Row-2'); ?>
-								</div>
-							</div>
+							<?php perch_content('S6 - Collapse 6'); ?>
 						</div>
 
 					</div>
@@ -579,8 +281,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<h2>What to put here?</h2>
-							<a class="btn btn-lg btn-yellow" href="https://goo.gl/maps/6sTLmCCVxnw" target="_blank">Lets decide later</a>
+							<?php perch_content('S7 - Header and link'); ?>
 						</div>
 					</div>
 				</div>
@@ -604,19 +305,19 @@
 					<div class="row">
 						<div class="col-sm-4 margin-b-30">
 							<div class="event-thumb">
-								<?php perch_content('Event 1'); ?>
+								<?php perch_content('S8 - Event 1'); ?>
 							</div>
 						</div>
 						<!--event entry column-->
 						<div class="col-sm-4 margin-b-30">
 							<div class="event-thumb">
-								<?php perch_content('Event 2'); ?>
+								<?php perch_content('S8 - Event 2'); ?>
 							</div>
 						</div>
 						<!--event entry column-->
 						<div class="col-sm-4 margin-b-30">
 							<div class="event-thumb">
-								<?php perch_content('Event 3'); ?>
+								<?php perch_content('S8 - Event 3'); ?>
 							</div>
 						</div>
 						<!--event entry column-->
@@ -630,8 +331,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<h2>What to put here?</h2>
-							<a class="btn btn-lg btn-yellow" href="https://goo.gl/maps/6sTLmCCVxnw" target="_blank">Lets decide later</a>
+							<?php perch_content('S9 - Header and link'); ?>
 						</div>
 					</div>
 				</div>
@@ -665,7 +365,7 @@
 
 
 								<div>
-									<a href="<?php perch_content('Download News Sheet'); ?>" download>
+									<a href="<?php perch_content('S10 - Newsheet'); ?>" download>
 										<button type="button" class="btn btn-yellow btn-sm wow fadeInUp delay">Download Newsheet<i class="fa fa-angle-right"></i></button>
 									</a>
 								</div>
@@ -719,48 +419,21 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-6 col-sm-offset-3 center-title text-center">
-								<h3>Church Team</h3>
-								<span class="center-line"></span>
+								<?php perch_content('S11 - Header'); ?>
 							</div>
 						</div>
 						<!--section title-->
 						<div class="row">
 							<div class="col-sm-4 col-sm-offset-1 margin-b-30">
 								<div class="chef-box">
-									<div class="chef-thumb">
-										<img src="img/resto/craig_sayle.jpg" class="img-responsive" alt="">
-
-									</div>
-									<!--chef thumb-->
-									<div class="chef-desc">
-										<h4>Rev. Craig Sayle</h4>
-										<em>Senior Pastor</em>
-										<p>
-											craig@loughtonbaptistchurch.org
-										</p>
-									</div>
+									<?php perch_content('S11 - Person 1'); ?>
 								</div>
 								<!--chef desc-->
 							</div>
 							<!--chef column-->
 							<div class="col-sm-4 col-sm-offset-2 margin-b-30">
 								<div class="chef-box">
-									<div class="chef-thumb">
-										<img src="img/resto/Nathan Marlam.jpg" class="img-responsive" alt="">
-
-									</div>
-									<!--chef thumb-->
-									<div class="chef-desc">
-										<h4>Rev. Nathan Marlam</h4>
-										<em>Associate Pastor</em>
-										<p>
-
-											nathan@loughtonbaptistchurch.org
-											<br>
-											01908 550614
-
-										</p>
-									</div>
+									<?php perch_content('S11 - Person 2'); ?>
 								</div>
 								<!--chef desc-->
 							</div>
@@ -770,37 +443,14 @@
 						<div class="row">
 							<div class="col-sm-4 col-sm-offset-1 margin-b-30">
 								<div class="chef-box">
-									<div class="chef-thumb">
-										<img src="img/resto/Tony McGinley.jpg" class="img-responsive" alt="">
-
-									</div>
-									<!--chef thumb-->
-									<div class="chef-desc">
-										<h4>Tony McGinley</h4>
-										<em>Youth Worker</em>
-
-										<p>
-											youthworkertony@gmail.com
-										</p>
-									</div>
+									<?php perch_content('S11 - Person 3'); ?>
 								</div>
 								<!--chef desc-->
 							</div>
 							<!--chef column-->
 							<div class="col-sm-4 col-sm-offset-2 margin-b-30">
 								<div class="chef-box">
-									<div class="chef-thumb">
-										<img src="img/resto/Susan Garvin.jpg" class="img-responsive" alt="">
-
-									</div>
-									<!--chef thumb-->
-									<div class="chef-desc">
-										<h4>Susan</h4>
-										<em>Secretary</em>
-										<p>
-											office@loughtonbaptistchurch.org
-										</p>
-									</div>
+									<?php perch_content('S11 - Person 4'); ?>
 								</div>
 							</div>
 							<!--chef column-->
@@ -810,11 +460,10 @@
 
 
 					<section id="contact-us" class="about-section" >
-						<div class="container">
+						<div class="container" >
 							<div class="row">
 								<div class="col-sm-6 col-sm-offset-3 center-title text-center">
-									<h3>Where to find us?</h3>
-									<span class="center-line"></span>
+									<?php perch_content('S12 - Header'); ?>
 								</div>
 							</div>
 							<!--section title-->

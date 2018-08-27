@@ -161,6 +161,7 @@ p, a, span, h1, h1, h3, h4, h5, h6 {
 
 /**home**/
 #home {
+  
   background-color: transparent;
   background-position: center 0%;
   background-size: auto;
@@ -173,7 +174,9 @@ p, a, span, h1, h1, h3, h4, h5, h6 {
   overflow-x: hidden;
   overflow-y: hidden;
   vertical-align: middle;
-  z-index: 1; }
+  z-index: 1; 
+color: #fff}
+  
   #home .home-inner {
     position: relative;
     display: table-cell;
@@ -181,7 +184,7 @@ p, a, span, h1, h1, h3, h4, h5, h6 {
     z-index: 3; }
     #home .home-inner h3 {
       font-family: "Great Vibes", cursive;
-      color: #fff;
+      color: #fff !important;
       font-size: 55px;
       text-transform: capitalize;
       margin-bottom: 30px; }
@@ -216,7 +219,7 @@ p, a, span, h1, h1, h3, h4, h5, h6 {
   .img-service-box img {
     margin-bottom: 5px; }
   .img-service-box h3 {
-    font-family: "Raleway", sans-serif;
+    font-family: "Cabin", sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 40px;
@@ -818,7 +821,7 @@ By ADAMSCHWARTZ
 /*Size of font next to map*/
 @media screen and (max-width:414px) {
   .contact-us{
-    font-family: "Raleway", sans-serif;
+    font-family: "Cabin", sans-serif;
     font-size: 12px;
     line-height: 14px;
     text-align: center;
@@ -830,13 +833,13 @@ By ADAMSCHWARTZ
     padding: 0px;
     font-size: 16px;
     line-height: 16px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Cabin", sans-serif;
   }
 }
 
 @media screen and (max-width: 600px) and (min-width:414px) {
   .contact-us{
-    font-family: "Raleway", sans-serif;
+    font-family: "Cabin", sans-serif;
     font-size: 14px;
     line-height: 16px;
     text-align: center;
@@ -848,13 +851,13 @@ By ADAMSCHWARTZ
     padding: 0px;
     font-size: 16px;
     line-height: 16px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Cabin", sans-serif;
   }
 }
 
 @media screen and (max-width: 768px) and (min-width: 601px) {
   .contact-us{
-    font-family: "Raleway", sans-serif;
+    font-family: "Cabin", sans-serif;
     font-size: 16px;
     line-height: 18px;
     text-align: center;
@@ -866,18 +869,18 @@ By ADAMSCHWARTZ
     padding: 0px;
     font-size: 16px;
     line-height: 16px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Cabin", sans-serif;
   }
 }
 
 @media screen and (max-width: 1000px) and (min-width: 769px) {
   .contact-us{
-    font-family: "Raleway", sans-serif;
+    font-family: "Cabin", sans-serif;
     font-size: 21px;
     line-height: 23px;
   }
   .FAQ-title{
-    font-family: "Raleway", sans-serif;
+    font-family: "Cabin", sans-serif;
     font-size: 11px;
   }
   .resizeInfo{
@@ -887,17 +890,17 @@ By ADAMSCHWARTZ
     padding: 0px;
     font-size: 16px;
     line-height: 16px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Cabin", sans-serif;
   }
 }
 @media screen and (max-width: 1200px) and (min-width: 1001px) {
   .contact-us{
-    font-family: "Raleway", sans-serif;
+    font-family: "Cabin", sans-serif;
     font-size: 26px;
     line-height: 28px;
   }
   .FAQ-title{
-    font-family: "Raleway", sans-serif;
+    font-family: "Cabin", sans-serif;
     font-size: 12px;
   }
   .resizeInfo{
@@ -907,17 +910,17 @@ By ADAMSCHWARTZ
     padding: 0px;
     font-size: 16px;
     line-height: 16px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Cabin", sans-serif;
   }
 }
 @media screen and (min-width: 1201px) {
   .contact-us{
-    font-family: "Raleway", sans-serif;
+    font-family: "Cabin", sans-serif;
     font-size: 28px;
     line-height: 30px;
   }
   .FAQ-title{
-    font-family: "Raleway", sans-serif;
+    font-family: "Cabin", sans-serif;
     font-size: 14px;
   }
   .resizeInfo{
@@ -926,7 +929,7 @@ By ADAMSCHWARTZ
     margin: 0px;
     font-size: 22px;
     line-height: 35px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Cabin", sans-serif;
   }
 }
 

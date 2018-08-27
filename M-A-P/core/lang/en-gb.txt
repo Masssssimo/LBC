@@ -464,5 +464,10 @@
     "Template tag ID \u2018%s\u2019 contains disallowed characters": "Template tag ID \u2018%s\u2019 contains disallowed characters",
     "File name": "File name",
     "Page already exists, or is a link only": "Page already exists, or is a link only",
-    "This page will have more pages below it": "This page will have more pages below it"
+    "This page will have more pages below it": "This page will have more pages below it",
+    "Edit Set": "Edit Set",
+    "Adding a New Category Set": "Adding a New Category Set",
+    "New Set": "New Set",
+    "Set template": "Set template",
+    "Category template": "Category template"
 }
